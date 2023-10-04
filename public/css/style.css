@@ -902,6 +902,14 @@ select:-webkit-autofill:focus{
 
 .building h3{
     margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: var(--main-blue);
+    font-family: var(--myriad-bold);
+}
+
+.building h4{
+    margin-top: 0px;
     font-size: 24px;
     color: var(--main-blue);
     font-family: var(--myriad-bold);

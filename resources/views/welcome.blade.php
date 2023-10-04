@@ -2,7 +2,7 @@
 
 @section('content')
     <div id="home-image" class="img-home">
-        <h3 class="eslogan">¡Haciendo lo que se debe hacer!</h3>
+        <span class="eslogan">¡Haciendo lo que se debe hacer!</span>
     </div>
 
     
@@ -20,6 +20,7 @@
     @include('components.consorcio')
 
     <div class="administracion" id="administracion">
+        <h1>Administracion de consorcio</h1>
         <div class="admin-presentation">
             <div class="logo-dc-admin">
 
@@ -28,7 +29,7 @@
             </div>
 
             <div class="admin-presentation-data">
-                <p>Con más de 10 años de trayectoria, nosotros proponemos a nuestros clientes una forma diferente de gestión, donde el objetivo principal es el cuidado del patrimonio de los proyectos y desafíos que llevamos adelante. Con una atención permanente y personalizada velando por la conservación y cuidado del buen funcionamiento de los servicios que brindamos, para su conford y tranquilidad.</p>
+                <p>Con más de 10 años de trayectoria, nosotros proponemos a nuestros clientes una forma diferente de gestión y coordinación de áreas y servicios compartidos, donde el objetivo principal es el cuidado del patrimonio de los proyectos, el mantenimiento óptimo de espacios comunes, como ascensores y jardines, así como una gestión financiera adecuada. Con una atención permanente y personalizada velando por la conservación y cuidado del buen funcionamiento de los servicios que brindamos, para su conford y tranquilidad. Esto es esencial para garantizar la convivencia armoniosa, resolver conflictos y promover la transparencia y la comunicación efectiva entre los propietarios.</p>
             </div>
         </div>
 
@@ -43,3 +44,7 @@
         </div>
     </div>
 @endsection
+
+
+
+

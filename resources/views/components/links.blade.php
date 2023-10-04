@@ -1,10 +1,10 @@
 @php
     $links = [
-        "Adm. de consorcio" => "administracion",
+        "Adm. de consorcio" => "#administracion",
         "Consultaria contable" => "contable",
-        "Contratista" => "contratista",
         "Certificaciones" => "certificaciones",
-        "New airs" => "newairs"
+        "New airs" => "newairs",
+        "Blogs" => "blogs"
     ];
 @endphp
 

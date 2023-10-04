@@ -4,9 +4,9 @@
     $services = [];
 
     $services = [
-        "Limpieza para servicios Airbnb" => "airbnb",
         "Limpieza integral para consorcios" => "building",
-        "Domicilios particulares" => "house",
+        "Limpieza para servicios Airbnb" => "airbnb",
+        "Instituciones educativas" => "school",
         "Empresas y comercios" => "shop"
     ];
 @endphp
@@ -18,7 +18,7 @@
             <img class="newairs-logo" src="assets/img/newairs/newairs.png">
 
             <div class="we-are container">
-                <p><span>New Airs</span> es una división de <span>DC. Estudio Cociancih</span>. Empresa dedicada exclusivamente a las necesidades de mantenimiento y aseo de carácter general, ya sea, empresas, consorcios, comercios y domicilios particulares. Todo lo que abarcaria una asistencia de primera instancia destacando nuestro servicio en higiene y atención al cliente en la colaboración entrenada de nuestro personal.</p>
+                <p><span>New Airs</span> es una división de <span>DC. Estudio Cociancih</span>. Empresa dedicada exclusivamente a las necesidades de mantenimiento e instituciones educativas. Todo lo que abarcaria una asistencia de primera instancia destacando nuestro servicio en higiene y atención al cliente en la colaboración entrenada de nuestro personal.</p>
                 <p>Para mas info visita la pagina oficial de <span><a href="https://newairs.ar//index.php">New Airs</a></span></p>
             </div>
         </div>

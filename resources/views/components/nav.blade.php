@@ -14,7 +14,7 @@
             </div>   
 
             @include("components.logo")
-
+            
         </div> 
 
         <div class="nav-bar">

@@ -46,16 +46,17 @@ Route::get('/home', function () {
     return view('welcome');
 })->name('principal');
 
-Route::get('/administracion', function () {
-    return Response::view('administracion');
+Route::get('/inicio', function () {
+    return redirect('/home');
 });
+
 
 Route::get('/contable', function () {
     return Response::view('contable');
 });
 
-Route::get('/contratista', function () {
-    return Response::view('contratista');
+Route::get('/blogs', function () {
+    return Response::view('blogs');
 });
 
 Route::get('/certificaciones', function () {
@@ -66,8 +67,3 @@ Route::get('/newairs', function () {
     return Response::view('newairs');
 });
 
-// Route::post('/', function(Request $request){
-//     // return dd($request);
-//     return $request;
-//     // Mail::to($request['mail'])
-// });

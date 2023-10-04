@@ -1,3 +1,13 @@
+@php
+    $construction = false;
+    $color = "#fcfcfc";
+
+    if(Route::current()->getName() == 'construccion'){
+        $construction = true;
+        $color = "#152b42";
+    }
+@endphp
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -12,13 +22,15 @@
 
         <title>DC Estudio</title>
     </head>
-    <body>
+    <body style="background-color: {{ $color }} !important">
         <div class="go-up" id="goUp">
             <i class="fa-solid fa-arrow-up"></i>
         </div>
 
-        
-        @include('components.nav')            
+
+        @if ($construction == false)
+            @include('components.nav')            
+        @endif
          
 
         @yield('content')

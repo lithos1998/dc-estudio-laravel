@@ -202,6 +202,39 @@ nav div{
     color: var(--light-blue);    
 }
 
+.fixed-nav-bar{
+    position: fixed;
+    top: -60px;
+    height: 60px ;
+    width: 100%;
+    background: linear-gradient(to right ,var(--aqua-blue) , var(--main-white) 35%);
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.658);
+    transition: all 0.4s ease-in-out !important;
+}
+
+.fixed-nav-bar .nav-buttons{
+    margin: auto 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 30px !important;
+}
+
+.fixed-nav-bar .nav-buttons a{
+    color: var(--main-blue);
+    text-decoration: none !important;
+    font-size: 17px;
+    font-family: var(--montserrat);
+    margin: 0px 20px;
+    /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.762); */
+}
+
 .nav-bar{
     height: 60px ;
     width: 100%;
@@ -230,7 +263,7 @@ nav div{
     font-family: var(--montserrat);
     margin: 0px 20px;
     text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.562);
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s ease-out; */
 }
 
 .nav-buttons-main:hover{
@@ -298,8 +331,8 @@ nav div{
     justify-content: center;
     flex-direction: column;
     margin-bottom: 90px;
-    background: rgb(21,43,66);
-    background: linear-gradient(90deg, rgba(21,43,66,1) 23%, rgba(52,85,119,1) 51%, rgba(21,43,66,1) 79%);
+    background: rgb(54,79,105);
+    background: linear-gradient(90deg, rgba(54,79,105,1) 7%, rgba(21,43,66,1) 46%);
 }
 
 .contact h2{
@@ -393,7 +426,7 @@ nav div{
     height: 40px !important;
     border: none;
     color: #f0e9e9;
-    background-color: transparent !important;
+    background-color: var(--main-blue) !important;
     border-bottom: solid;
     font-size: 20px;
 }
@@ -415,8 +448,8 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus{
     border-bottom: 4px solid #f0e9e9 !important;
     -webkit-text-size-adjust: 20px !important;
-    -webkit-text-fill-color: #f0e9e9;
-    -webkit-box-shadow: 40px 0  0px 30px #152b42 inset;
+    -webkit-text-fill-color: #f0e9e9 !important;
+    -webkit-box-shadow: 40px 0  0px 30px #152b42 inset !important;
 }
 
 
@@ -458,7 +491,27 @@ select:-webkit-autofill:focus{
 
 .social-media  a:hover{
     font-size: 40px;
-    color: var(--aqua-blue);
+    fill: var(--aqua-blue);
+}
+
+.social-media  a svg{
+    width: 40px;
+    height: 40px;
+}
+
+.social-media  a svg:hover{
+    width: 45px;
+    height: 45px;
+    transition: all .2s ease-in-out;
+    fill: var(--aqua-blue) !important;
+}
+
+.media-icons{
+    fill: var(--main-white);
+}
+
+.media-icons:hover{
+    fill: var(--aqua-blue) !important;
 }
 
 .contact-text{
@@ -499,44 +552,54 @@ select:-webkit-autofill:focus{
 /* consorcio libre */
 .consorcio-libre{
     margin-top: 50px;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-}
-
-.consorcio-libre :first-child{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.consorcio-libre :first-child p{
-    font-size: 25px;
-    text-align: center;
-}
-
-.consorcio-libre :last-child{
+    margin-bottom: 70px;
     display: flex;
     flex-direction: row;
+    width: 50%;
+}
+
+
+
+.consorcio-div-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.consorcio-div-1 p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.consorcio-div-2{
+    width: 100%;
 }
 
 .info-consorcio{
     display: flex;
-    width: 50%;
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+}
+
+.div-qr-data{
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-consorcio{
     width: 500px;
+    margin-bottom: 60px;
 }
 
 .div-qr{
-    margin-top: 40px;
     width: fit-content !important;
-    padding: 40px 40px;
+    padding: 25px 25px;
     background-color: var(--main-white);
     border-radius: 20px;
     box-shadow: 10px 8px 27px rgba(0, 0, 0, 0.562);
@@ -544,14 +607,14 @@ select:-webkit-autofill:focus{
 }
 
 .div-qr img{
-    width: 200px;
+    width: 160px;
 }
 
 .registrate-consorcio{
     color: var(--main-blue);
-    font-size: 30px !important;
+    font-size: 25px !important;
     text-align: center;
-    margin-bottom: 0px !important;
+    margin: 0px !important;
 }
 
 .store-consorcio{
@@ -566,15 +629,15 @@ select:-webkit-autofill:focus{
 }
 
 .video-consorcio{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #video-yt{
-    width: 100%;
-    height: 80%;
+    width: 80%;
+    height: 250px;
     box-shadow: 9px 9px 25px rgba(0, 0, 0, 0.658);
 }
 
@@ -591,6 +654,7 @@ select:-webkit-autofill:focus{
 
 .section-contable .contable-services{
     width: 50%;
+    padding: 0px 30px;
 }
 
 .section-contable .us-contable{
@@ -662,12 +726,198 @@ select:-webkit-autofill:focus{
 
 /* contable */
 
+/* new airs */
+.new-airs-page{
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.newairs-logo{
+    width: 300px;
+}
+
+.newairs-data{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-are p{
+    font-size: 22px;
+}
+
+.we-are p span{
+    font-weight: 800;
+}
+
+.we-are p span a{
+    color: #00d0c2;
+}
+
+.we-are p span a:hover{
+    color: #152b42;
+    font-size: 25px;
+    transition: all .5s ease-in-out;
+}
+
+.newairs-services{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newairs-services h2{
+    color: var(--main-blue);
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.newairs-services .services{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.newairs-services .services div{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.newairs-icon{
+    color: #00d0c2 !important;
+}
+
+.newairs-services .services div h3{
+    font-size: 25px;
+    margin-top: 5px;
+    color: #00d0c2;
+    text-align: center;
+    font-family: var(--myriad-regular);
+}
+
+/* new airs */
+
+/* administracion */
+.administracion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+}
+
+.admin-presentation{
+    margin-top: 100px;
+    padding: 0px 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.admin-presentation-data{
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.admin-presentation-data p{
+    font-size: 24px;
+    text-align: center;
+    margin: 0px 60px;
+}
+
+.logo-dc-admin{
+    display: flex;
+    flex-direction: row;
+    width: 30%;   
+}
+
+.logo-dc-admin img{
+    width: 180px;
+}
+
+.logo-dc-admin p{
+    display: flex;
+    margin-bottom: 0px;
+    font-size: 45px;
+    color: var(--main-blue);
+    align-items: flex-end;
+}
+
+.admin-images{
+    width: 300px;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.658);
+}
+
+.our-clients{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.our-clients h2{
+    color: var(--main-blue);
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-family: var(--myriad-bold);
+}
+
+.buildings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.building{
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: flex-start; 
+}
+
+.building div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.building h2{
+    font-size: 40px;
+    color: var(--main-blue);
+    margin-bottom: 0px;
+    font-family: var(--myriad-light);
+}
+
+.building h3{
+    margin-top: 10px;
+    font-size: 24px;
+    color: var(--main-blue);
+    font-family: var(--myriad-bold);
+}
+
+
+/* administracion */
+
+
 /* pages */
 
 
 /* footer */
 footer{
-    background-color: var(--main-blue);
+    background: rgb(51,78,106);
+    background: linear-gradient(180deg, rgba(51,78,106,1) 5%, rgba(20,43,66,1) 46%);
     width: 100%;
     height: 200px;
     position: relative;

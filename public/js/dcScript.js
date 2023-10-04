@@ -4,9 +4,13 @@ $(document).ready(function(){
     // go up to the top screen
     $(window).scroll(function () { 
         if ($(window).scrollTop() > 500) {
+            // show
             go_position(40);
+            show_fixed_navbar('0px');
         }else if ($(window).scrollTop() < 500) {
+            // hide
             go_position('-100px');
+            show_fixed_navbar('-60px');
         }
     });
 
@@ -14,9 +18,17 @@ $(document).ready(function(){
     $('.cont-button').click(function (e) {         
         var class_name = '.'+$(this).attr('id');
         
+        // remove and add radius
         $('.div-contable').removeClass('contable_radius');
         $(this).parent().addClass('contable_radius');
 
+        // change beetwen arrows up and down
+        $('.arrow-contable').removeClass('fa-chevron-up');
+        $('.arrow-contable').addClass('fa-chevron-down');
+        $(this).children().removeClass('fa-chevron-down');
+        $(this).children().addClass('fa-chevron-up');
+        
+        // show and hide div data
         $('.cont-list').addClass('d-none');
         $(class_name).removeClass('d-none');
     });
@@ -61,6 +73,12 @@ $(document).ready(function(){
     function go_position(position) {
         $('.go-up').css('right', position);
     } 
+
+    function show_fixed_navbar(position){
+        if($(window).width() >= 800){
+            $('.fixed-nav-bar').css('top', position);
+        }
+    }
 });  
 
 

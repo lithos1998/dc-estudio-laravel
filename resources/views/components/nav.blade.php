@@ -1,4 +1,4 @@
-<nav>
+<nav id="navbar" class="">
     <img class="decoration" src="assets/img/decoracion2.png" alt="" srcset="">
     <div>
         <div class="logo-institution">
@@ -12,8 +12,9 @@
                 @endif
                 
             </div>   
-            <img class="logo-buildings" src="assets/img/logo.png" alt="">      
-            <p>DC | ESTUDIO COCIANCIH</p>      
+
+            @include("components.logo")
+
         </div> 
 
         <div class="nav-bar">
@@ -27,6 +28,14 @@
         </div>
 
         <div class="mobile-menu-nav">
+            @include('components.links')
+        </div>
+    </div>
+</nav>
+
+<nav id="fixed-navbar" class="">
+    <div class="fixed-nav-bar">
+        <div class="nav-buttons">
             @include('components.links')
         </div>
     </div>

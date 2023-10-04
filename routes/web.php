@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Mail\Mailer;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
@@ -16,7 +17,32 @@ use Illuminate\Support\Facades\View;
 |
 */
 
+// when site is in mode construccion
+Route::get('/construccion', function () {
+    return Response::view('construccion');
+})->name('construccion');
+
 Route::get('/', function () {
+    return Response::view('construccion');
+})->name('construccion');
+
+// -------------------------------------------
+
+Route::get('/index.php', function () {
+    return Response::view('administracion');
+});
+
+
+/*
+| while site is on construction 
+
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('principal');
+*/
+
+
+Route::get('/home', function () {
     return view('welcome');
 })->name('principal');
 
@@ -40,5 +66,8 @@ Route::get('/newairs', function () {
     return Response::view('newairs');
 });
 
-
-
+// Route::post('/', function(Request $request){
+//     // return dd($request);
+//     return $request;
+//     // Mail::to($request['mail'])
+// });

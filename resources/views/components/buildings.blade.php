@@ -3,13 +3,13 @@
 
     $buildings = [
         [
-            "Voir", "Amenabar" , "2913", "Belgrano"
+            "Voir", "Amenabar" , "2913", "Belgrano", "2023"
         ],
         [
-            "Rivadavia", "Rivadavia" , "6120", "Caballito"
+            "Rivadavia", "Rivadavia" , "6120", "Caballito", "2023"
         ],
         [
-            "Park cid", "Antezana" , "570", "Caballito"
+            "Park cid", "Antezana" , "570", "Caballito", "2023"
         ]
     ];
 @endphp
@@ -26,7 +26,13 @@
 @foreach ($buildings as $data)
 
     <div class="building">
-        <img class="admin-images" src="assets/img/buildings/{{ $data[1] }}.png">
+        <div class="building-img" >
+            <div class="ribbon-wrapper">
+                <div class="ribbon">{{ $data[4] }}</div>
+            </div>
+            
+            <img class="admin-images" src="assets/images/buildings/{{ $data[1] }}.png">
+        </div>
 
         <div>
             <h2>{{ $data[0] }}</h2>

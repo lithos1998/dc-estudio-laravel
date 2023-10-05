@@ -1,9 +1,5 @@
-@php
-    $media = ['facebook', 'instagram', 'linkedin'];
-@endphp
-
 <div class="social-media">
-    @foreach ($media as $names)
+    @foreach (Data::$socialmedia as $names)
         <a href=""><x-icon :icon="$names"/></a>        
     @endforeach
 </div>

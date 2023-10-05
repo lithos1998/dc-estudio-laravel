@@ -1,14 +1,81 @@
-<?php 
-    // nav links
-    $links = [
-        "Adm. de consorcio" => "administracion",
-        "Consultaria contable" => "contable",
-        "Contratista" => "contratista",
-        "Certificaciones" => "certificaciones",
-        "New airs" => "newairs"
+<?php
+
+class Data{
+    public static $suppliers = [
+        'owl',
+        'ascensores',
+        'gestionar',
+        'matafuegos',
+        'crayon',
+        'dakari',
+        'marina',
+        'somos-hogar',
+        'consorcioabierto',
+        'energroup',
+        'moran',
+        'newairs',
+        'dovalle'
+    ];  
+
+    public static $newairs_services = [
+        "Limpieza integral para consorcios" => "building",
+        "Limpieza para servicios Airbnb" => "airbnb",
+        "Instituciones educativas" => "school",
+        "Empresas y comercios" => "shop"
     ];
 
-    $contable_data = [
+    public static $socialmedia = ['facebook', 'instagram', 'linkedin'];
+
+    public static $nav_links = [
+        "Adm. de consorcio" => "#administracion",
+        "Consultaria contable" => "contable",
+        "Certificaciones" => "certificaciones",
+        "New airs" => "newairs",
+        "Blogs" => "blogs"
+    ];
+
+    public static $select_options = [
+        "razon" => "Motivo por la cual se contacta",
+        "consorcio" => "Administracion de consorcio",
+        "contable" => "Consultaria contable",
+        "contratista" => "Contratista",
+        "newairs" => "New airs",
+        "certificaciones" => "Certificaciones",
+        "otros" => "Otros",
+    ];
+
+    public static $form_inputs = [
+        [
+            "type" => "text",
+            "name_id" => "name",
+            "class" => "name",
+            "pattern" => "",
+            "placeholder" => "Nombre y apellido"
+        ],
+        [
+            "type" => "email",
+            "name_id" => "email",
+            "class" => "email",
+            "pattern" => "[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}",
+            "placeholder" => "Razon por la que se comunica"
+        ],
+        [
+            "type" => "reason",
+            "name_id" => "reason",
+            "class" => "reason",
+            "pattern" => "",
+            "placeholder" => "Email: Ejemplo@mail.com"
+        ],
+        [
+            "type" => "text",
+            "name_id" => "address",
+            "class" => "address d-none",
+            "pattern" => "",
+            "placeholder" => "Domicilio"
+        ],
+    ];
+
+    public static $contable = [
         [
             "id" => "monotributista",
             "class" => "fa-solid fa-coins",
@@ -90,4 +157,4 @@
         ]
     ];
 
-?>
+}

@@ -1,21 +1,10 @@
 @extends('layouts.app')
 
-@php
-    $services = [];
-
-    $services = [
-        "Limpieza integral para consorcios" => "building",
-        "Limpieza para servicios Airbnb" => "airbnb",
-        "Instituciones educativas" => "school",
-        "Empresas y comercios" => "shop"
-    ];
-@endphp
-
 
 @section('content')
     <div class="new-airs-page">
         <div class="newairs-data">
-            <img class="newairs-logo" src="assets/img/newairs/newairs.png">
+            <img class="newairs-logo" src="assets/img/suppliers/newairs.png">
 
             <div class="we-are container">
                 <p><span>New Airs</span> es una división de <span>DC. Estudio Cociancih</span>. Empresa dedicada exclusivamente a las necesidades de mantenimiento e instituciones educativas. Todo lo que abarcaria una asistencia de primera instancia destacando nuestro servicio en higiene y atención al cliente en la colaboración entrenada de nuestro personal.</p>
@@ -27,7 +16,7 @@
             <h2>Nuestros servicios</h2>
 
             <div class="services">                
-                @foreach ($services as $title => $class )                   
+                @foreach (Data::$newairs_services as $title => $class )                   
                     <div>
                         <x-icon :icon="$class"/>
                         <h3>{{ $title }}</h3>

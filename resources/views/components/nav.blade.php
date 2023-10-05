@@ -1,5 +1,5 @@
 <nav id="navbar" class="">
-    <img class="decoration" src="assets/img/decoracion2.png" alt="" srcset="">
+    <img class="decoration" src="assets/images/decoracion2.png" alt="" srcset="">
     <div>
         <div class="logo-institution">
             <div class="contact-nav">

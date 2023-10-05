@@ -1,9 +1,9 @@
-<div class="consorcio-libre">
-    <div class="consorcio-div-1 container">
-        <img class="logo-consorcio" src="assets/img/consorcio_abierto/consorcioabierto.png" alt="">
+<div class="our-suppliers">
+    <div class="consorcio-libre container">
+        <img class="logo-consorcio" src="assets/images/suppliers/consorcioabierto.png" alt="">
         <p class="d-none">Trabajamos en conjunto con consorcio abierto una plataforma diseñada específicamente para administraciones de edificios, con el objetivo de centralizar toda la información y asi estar conectados constantemente para encontrar las respuestas al instante</p>
 
-        <div class="consorcio-div-2">
+        <div class="consorcio-data">
             <div class=" ">
                 <div class="info-consorcio">                
                     <div class="video-consorcio">
@@ -11,7 +11,7 @@
                     </div> 
                     
                     <div class="div-qr">
-                        <img src="assets/img/consorcio_abierto/qr.jpg" alt="">
+                        <img src="assets/images/consorcio_abierto/qr.jpg" alt="">
                     </div>
                 </div>
             </div> 
@@ -22,5 +22,11 @@
                 <p class="store-consorcio">Disponible en <span> Google Play </span> y <span> App Store. </span></p>
             </div>
         </div>
-    </div>                  
+    </div> 
+
+    <div class="suppliers">
+        @foreach (Data::$suppliers as $logo)
+            <img src="assets/images/suppliers/{{ $logo }}.png">
+        @endforeach
+    </div>                 
 </div>

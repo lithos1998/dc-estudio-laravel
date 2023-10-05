@@ -4,7 +4,7 @@
     <div class="construction_page">
         <div class="images_construction">
             <div>
-                <img src="assets/img/logo.png" alt="">
+                <img src="assets/images/logo.png" alt="">
                 <h2>DC Estudio Cociancih</h2> 
             </div>
         </div>    

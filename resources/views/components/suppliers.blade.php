@@ -1,10 +1,12 @@
+<h4>Nuestros proveedores</h4>
+
 <div class="our-suppliers">
-    <div class="consorcio-libre container">
+    <div class="consorcio-libre">
         <img class="logo-consorcio" src="assets/images/suppliers/consorcioabierto.png" alt="">
         <p class="d-none">Trabajamos en conjunto con consorcio abierto una plataforma diseñada específicamente para administraciones de edificios, con el objetivo de centralizar toda la información y asi estar conectados constantemente para encontrar las respuestas al instante</p>
 
         <div class="consorcio-data">
-            <div class=" ">
+            <div class="div-video-qr">
                 <div class="info-consorcio">                
                     <div class="video-consorcio">
                         <iframe id="video-yt" src="https://www.youtube.com/embed/FanVUMp9H90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -21,6 +23,8 @@
 
                 <p class="store-consorcio">Disponible en <span> Google Play </span> y <span> App Store. </span></p>
             </div>
+            
+            <a href="https://app.consorcioabierto.com" target="_blank" id="consorcio-abierto-btn" class="consorcio-button">Ir a mi consorcio abierto</a>
         </div>
     </div> 
 

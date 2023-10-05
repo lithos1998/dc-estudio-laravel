@@ -6,15 +6,13 @@ class Data{
         'ascensores',
         'gestionar',
         'matafuegos',
-        'crayon',
+        'dovalle',
         'dakari',
         'marina',
         'somos-hogar',
         'consorcioabierto',
         'energroup',
-        'moran',
-        'newairs',
-        'dovalle'
+        'newairs'
     ];  
 
     public static $newairs_services = [

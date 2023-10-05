@@ -17,7 +17,7 @@
 
     @include('components.form')
 
-    @include('components.consorcio')
+    @include('components.suppliers')
 
     <div class="administracion" id="administracion">
         <h1>Administracion de consorcio</h1>

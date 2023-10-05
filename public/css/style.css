@@ -861,8 +861,14 @@ h4{
     max-width: 100%;
 }
 
+.administracion h1{
+    color: var(--main-blue);
+    text-align: center;
+    font-size: 40px;
+}
+
 .admin-presentation{
-    margin-top: 100px;
+    margin-top: 10px;
     padding: 0px 90px;
     display: flex;
     flex-direction: row;
@@ -927,6 +933,7 @@ h4{
 
 .building{
     margin: 50px 30px;
+    margin-top: 10px !important;
     display: flex;
     flex-direction: column;
     align-items: center;   
@@ -959,6 +966,7 @@ h4{
     font-size: 24px;
     color: var(--main-blue);
     font-family: var(--myriad-bold);
+    text-align: start;
 }
 
 .building-img{

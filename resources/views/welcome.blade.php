@@ -20,7 +20,7 @@
     @include('components.suppliers')
 
     <div class="administracion" id="administracion">
-        <h1>Administracion de consorcio</h1>
+        <h1>Administracion de consorcios</h1>
         <div class="admin-presentation">
             <div class="logo-dc-admin">
 

@@ -36,7 +36,7 @@ $(document).ready(function(){
     // go to a section
     $('.nav-link').click(function (e) {
         e.preventDefault($(this).attr('id'));
-        var seccion = $($(this).attr('href')).offset().top;
+        var seccion = $($(this).attr('href')).offset().top - 60;
         $('html,body').stop().animate({scrollTop: seccion}, 800);
     });
 

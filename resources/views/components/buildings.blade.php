@@ -1,30 +1,4 @@
-@php
-    $buildings = [];
-
-    $buildings = [
-        [
-            "Voir", "Amenabar" , "2913", "Belgrano", "2023"
-        ],
-        [
-            "Rivadavia", "Rivadavia" , "6120", "Caballito", "2023"
-        ],
-        [
-            "Park cid", "Antezana" , "570", "Caballito", "2023"
-        ]
-    ];
-@endphp
-
-{{-- 
-
-    ecuador 560 
-    
-    jose maria moreno 186
-
---}}
-
-
-@foreach ($buildings as $data)
-
+@foreach (Data::$new_buildings as $data)
     <div class="building">
         <div class="building-img" >
             <div class="ribbon-wrapper">
@@ -40,5 +14,4 @@
             <h4>{{ $data[3] }}</h4>
         </div>
     </div>
-    
 @endforeach

@@ -83,7 +83,7 @@ body{
     height: 60px;
     border-radius: 40px;
     position: fixed;
-    bottom: 80px;
+    bottom: 160px;
     right: -100px;
     z-index: 999999;
     display: flex;
@@ -108,6 +108,27 @@ body{
     color: #fcfcfc;
 }
 
+.wpp-me{
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.wpp-me i{
+    text-shadow: 10px 8px 27px rgba(0, 0, 0, 0.562);
+    font-size: 65px;
+    color: #25d366;
+    transition: all .3s ease-in-out;
+}
+
+.wpp-me i:hover{
+    color:#128c7e;
+}
 
 
 /* user message */
@@ -326,6 +347,7 @@ nav div{
 
 /* contact form */
 .contact{
+    padding: 0px 60px;
     margin: 40px 0px;
     display: flex;
     justify-content: center;
@@ -910,7 +932,7 @@ h4{
 }
 
 .our-clients{
-    width: 100%;
+    padding: 0px 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -923,6 +945,45 @@ h4{
     font-size: 40px;
     margin-bottom: 0px;
     font-family: var(--myriad-bold);
+}
+
+.clients-logos{
+    margin: 60px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clients-logos img{
+    width: 250px !important;
+    margin: 0px 50px;
+}
+
+.clients{
+    margin-top: 80px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clients .client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.clients .client i{
+    color: var(--main-blue);
+    font-size: 70px;
+}
+
+.clients .client h3{
+    margin-top: 10px;
+    color: var(--main-blue);
+    font-size: 30px;
 }
 
 .buildings{
@@ -975,7 +1036,18 @@ h4{
     height: 100%;
     position: relative;
     z-index: 90;
+    overflow:hidden;
 }
+
+.building-img .admin-images{
+    transition: 0.5s;
+}
+
+.admin-images:hover {
+    transform: scale(1.2);
+}
+
+
 
 .ribbon-wrapper {
     width: 85px;

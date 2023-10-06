@@ -72,7 +72,7 @@
 
     <body>
         <div class="div-error">
-            <img src="assets/img/logo.png" alt="">
+            <img src="assets/image/logo.png" alt="">
             <h1>404</h1>
             <h2>Pagina no encontrada</h2>
 

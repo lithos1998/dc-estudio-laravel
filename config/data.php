@@ -155,4 +155,33 @@ class Data{
         ]
     ];
 
+    public static $new_buildings = [
+        [
+            "Voir", "Amenabar" , "2913", "Belgrano", "2023"
+        ],
+        [
+            "Rivadavia", "Rivadavia" , "6120", "Caballito", "2023"
+        ],
+        [
+            "Park cid", "Antezana" , "570", "Caballito", "2023"
+        ],
+        [
+            "Ecuador", "Ecuador" , "560", "Balvanera", "2023"
+        ]
+    ];
+
+    public static $clients = [
+        'Av. Rivadavia 6088 ',
+        'Jose Maria Moreno 186',
+        'Ecuador 560',
+        'Mendez de andes 14/16'
+    ];
+
+    public static $clients_logo = [
+        'voir',
+        'as',
+        'moran',
+        'crayon'
+    ];
+
 }

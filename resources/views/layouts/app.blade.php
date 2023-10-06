@@ -27,6 +27,12 @@
             <i class="fa-solid fa-arrow-up"></i>
         </div>
 
+        <div class="wpp-me" id="wppMe">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491127871148&text=Hola%20deseo%20informacion%20sobre%20estudio%20cociancih">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+
 
         @if ($construction == false)
             @include('components.nav')            

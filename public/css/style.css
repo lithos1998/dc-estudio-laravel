@@ -708,6 +708,11 @@ h4{
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.consorcio-button:hover{
+    background-color: var(--main-blue);
 }
 /* consorcio libre */
 
@@ -911,7 +916,7 @@ h4{
 .logo-dc-admin{
     display: flex;
     flex-direction: row;
-    width: 30%;   
+    width: 25%;   
 }
 
 .logo-dc-admin img{

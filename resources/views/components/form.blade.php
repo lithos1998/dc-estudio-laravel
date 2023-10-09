@@ -4,8 +4,8 @@
         <div class="w-100 contact-div">
             <div class="contact-us d-column container">
                 <div class="contact-data d-column">
-                    <p>Tel.: (+54) 9 11 2787-1148</p>
-                    <p>Email: administracion@dc.ar </p>   
+                    <p>Tel.: {{ Data::$phone_number}}</p>
+                    <p>Email: {{ Data::$email }} </p>   
                 </div>
 
                 @include('components.social-media')

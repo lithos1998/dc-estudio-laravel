@@ -2,18 +2,32 @@
 
 class Data{
     public static $suppliers = [
-        'owl',
-        'ascensores',
         'gestionar',
-        'matafuegos',
+        'newairs',
         'dovalle',
-        'dakari',
+        'matafuegos',
         'marina',
-        'somos-hogar',
         'consorcioabierto',
+        'somos-hogar',
         'energroup',
-        'newairs'
+        'dakari',
+        'owl',
+        'ascensores'
     ];  
+
+    // public static $suppliers = [
+    //     'owl',
+    //     'ascensores',
+    //     'gestionar',
+    //     'matafuegos',
+    //     'dovalle',
+    //     'dakari',
+    //     'marina',
+    //     'somos-hogar',
+    //     'consorcioabierto',
+    //     'energroup',
+    //     'newairs'
+    // ];  
 
     public static $newairs_services = [
         "Limpieza integral para consorcios" => "building",
@@ -178,10 +192,14 @@ class Data{
     ];
 
     public static $clients_logo = [
-        'voir',
-        'as',
         'moran',
-        'crayon'
+        'voir',
+        'crayon',
+        'as'
     ];
+
+    public static $phone_number = '(+54) 9 11 2787-1148';
+
+    public static $email = 'administradcion@dc.ar';
 
 }

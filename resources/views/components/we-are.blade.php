@@ -16,6 +16,6 @@
     </div>
 
     <div class="admin-presentation-data">
-        <p>Con más de 10 años de trayectoria, nosotros proponemos a nuestros clientes una forma diferente de gestión y coordinación de áreas y servicios compartidos, donde el objetivo principal es el cuidado del patrimonio de los proyectos, el mantenimiento óptimo de espacios comunes, como ascensores y jardines, así como una gestión financiera adecuada. Con una atención permanente y personalizada velando por la conservación y cuidado del buen funcionamiento de los servicios que brindamos, para su conford y tranquilidad. Esto es esencial para garantizar la convivencia armoniosa, resolver conflictos y promover la transparencia y la comunicación efectiva entre los propietarios.</p>
+        <p>Con más de 10 años de trayectoria, nosotros proponemos a nuestros clientes una forma diferente de gestión y coordinación de áreas y servicios compartidos, donde el objetivo principal es el cuidado del patrimonio de los proyectos, el mantenimiento óptimo de espacios comunes, amenities y otros, así como una gestión financiera adecuada. Con una atención permanente y personalizada velando por la conservación y cuidado del buen funcionamiento de los servicios que brindamos, para su conford y tranquilidad. Esto es esencial para garantizar la convivencia armoniosa, resolver conflictos y promover la transparencia y la comunicación efectiva entre los propietarios.</p>
     </div>
 </div>

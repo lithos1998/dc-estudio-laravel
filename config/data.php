@@ -36,7 +36,6 @@ class Data{
         "razon" => "Motivo por la cual se contacta",
         "consorcio" => "Administracion de consorcio",
         "contable" => "Consultaria contable",
-        "contratista" => "Contratista",
         "newairs" => "New airs",
         "certificaciones" => "Certificaciones",
         "otros" => "Otros",
@@ -55,20 +54,20 @@ class Data{
             "name_id" => "email",
             "class" => "email",
             "pattern" => "[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}",
-            "placeholder" => "Razon por la que se comunica"
+            "placeholder" => "Email: Ejemplo@mail.com"
         ],
         [
             "type" => "reason",
             "name_id" => "reason",
             "class" => "reason",
             "pattern" => "",
-            "placeholder" => "Email: Ejemplo@mail.com"
+            "placeholder" => "Razon por la que se comunica"
         ],
         [
             "type" => "text",
             "name_id" => "address",
             "class" => "address d-none",
-            "pattern" => "",
+            "pattern" => "[a-zA-Z0-9_]",
             "placeholder" => "Domicilio"
         ],
     ];
@@ -186,12 +185,12 @@ class Data{
 
     public static $checks = [
         'Comunicacion',
-        'Transparencia',
-        'Voluntad'
+        'Voluntad',
+        'Transparencia'
     ];
 
     public static $phone_number = '(+54) 9 11 2787-1148';
 
-    public static $email = 'administradcion@dc.ar';
+    public static $email = 'administracion@dc.ar';
 
 }

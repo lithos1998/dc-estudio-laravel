@@ -35,7 +35,7 @@
 
 <nav id="fixed-navbar" class="">
     <div class="fixed-nav-bar">
-        <div class="nav-buttons">
+        <div class="nav-buttons" id="fixed-bar">
             @include('components.links')
         </div>
     </div>

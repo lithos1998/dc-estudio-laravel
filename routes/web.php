@@ -12,11 +12,15 @@ Route::get('/', function () {
 })->name('principal');
 
 Route::get('/home', function () {
-    return redirect('/');
+    return redirect('principal');
 });
 
 Route::get('/inicio', function () {
     return redirect('/');
+});
+
+Route::get('/administracion', function () {
+    return view('welcome');
 });
 
 Route::get('/contable', function () {

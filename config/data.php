@@ -15,20 +15,6 @@ class Data{
         'ascensores'
     ];  
 
-    // public static $suppliers = [
-    //     'owl',
-    //     'ascensores',
-    //     'gestionar',
-    //     'matafuegos',
-    //     'dovalle',
-    //     'dakari',
-    //     'marina',
-    //     'somos-hogar',
-    //     'consorcioabierto',
-    //     'energroup',
-    //     'newairs'
-    // ];  
-
     public static $newairs_services = [
         "Limpieza integral para consorcios" => "building",
         "Limpieza para servicios Airbnb" => "airbnb",
@@ -39,7 +25,7 @@ class Data{
     public static $socialmedia = ['facebook', 'instagram', 'linkedin'];
 
     public static $nav_links = [
-        "Adm. de consorcio" => "#administracion",
+        "Adm. de consorcio" => "administracion",
         "Consultaria contable" => "contable",
         "Certificaciones" => "certificaciones",
         "New airs" => "newairs",

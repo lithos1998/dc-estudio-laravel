@@ -11,21 +11,10 @@
         <div class="clients">
             @foreach ( Data::$clients as $addres)
                 <div class="client">
-                    {{-- <img src="/assets/images/logo.png" width="120"> --}}
-                    <img src="/assets/images/logo-main-blue.png" width="120">
+                    <img src="/assets/images/logo.png" width="120">
                     <h3>{{ $addres }}</h3>
                 </div>
             @endforeach
-        </div>
-
-        <div class="admin-presentation">
-            <div class="logo-dc-admin">
-                @include("components.logo")
-            </div>
-
-            <div class="admin-presentation-data">
-                <p>Con más de 10 años de trayectoria, nosotros proponemos a nuestros clientes una forma diferente de gestión y coordinación de áreas y servicios compartidos, donde el objetivo principal es el cuidado del patrimonio de los proyectos, el mantenimiento óptimo de espacios comunes, como ascensores y jardines, así como una gestión financiera adecuada. Con una atención permanente y personalizada velando por la conservación y cuidado del buen funcionamiento de los servicios que brindamos, para su conford y tranquilidad. Esto es esencial para garantizar la convivencia armoniosa, resolver conflictos y promover la transparencia y la comunicación efectiva entre los propietarios.</p>
-            </div>
         </div>
 
         <h2>Nuestros clientes</h2>

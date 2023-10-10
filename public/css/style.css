@@ -70,7 +70,7 @@ p{
 }
 
 .container{
-    padding: 0 60px !important;
+    padding: 0 90px !important;
 }
 
 body{
@@ -569,6 +569,32 @@ select:-webkit-autofill:focus{
     font-weight: 900;
 }
 
+.check-group{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.check-group .check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 40px;
+}
+
+.check-group .check i{
+    font-size: 40px;
+    color: var(--main-blue);
+    margin-right: 15px;
+}
+
+.check-group .check h2{
+    font-family: var(--myriad-regular);
+    font-size: 40px;
+    color: var(--main-blue);
+}
 /* we are */
 
 /* consorcio libre */
@@ -903,13 +929,13 @@ h4{
 }
 
 .admin-presentation-data{
-    width: 70%;
+    width: 100%;
     display: flex;
     align-items: flex-end;
 }
 
 .admin-presentation-data p{
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
     margin: 0px !important;
 }
@@ -919,6 +945,7 @@ h4{
     flex-direction: row;
     width: 25%;   
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .logo-dc-admin img{
@@ -926,12 +953,14 @@ h4{
     margin-right: 20px;
 }
 
-.logo-dc-admin p{
+.logo-dc-admin h1{
     display: flex;
     margin-bottom: 0px;
     font-size: 45px;
     color: var(--main-blue);
     align-items: flex-end;
+    text-align: start;
+    font-family: var(--myriad-light);
 }
 
 .admin-images{

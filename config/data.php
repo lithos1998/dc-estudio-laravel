@@ -184,6 +184,12 @@ class Data{
         'as'
     ];
 
+    public static $checks = [
+        'Comunicacion',
+        'Transparencia',
+        'Voluntad'
+    ];
+
     public static $phone_number = '(+54) 9 11 2787-1148';
 
     public static $email = 'administradcion@dc.ar';

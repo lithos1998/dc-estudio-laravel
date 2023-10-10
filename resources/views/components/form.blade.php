@@ -1,5 +1,5 @@
 <div id="contact-home" class="contact">
-        <h2>Contacto</h2>
+        <p class="page-title">Contacto</p>
         <p class="contact-text">Creemos que la comunicación es una herramienta fundamental para lograr las metas propuestas y satisfacer las demandas de nuestros clientes, no dudes en contactarnos.</p>
         <div class="w-100 contact-div">
             <div class="contact-us d-column container">

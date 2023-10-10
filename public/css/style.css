@@ -77,6 +77,12 @@ body{
     margin: 0em !important;
 }
 
+.page-title{
+    font-size: 45px;
+    color: var(--main-blue);
+    font-family: var(--myriad-black);
+}
+
 .go-up{
     background-color: #fcfcfc;
     width: 60px;
@@ -559,12 +565,6 @@ select:-webkit-autofill:focus{
     color: var(--main-blue);
 }
 
-.we-are p{
-    font-size: 25px;
-    color: var(--main-blue);
-    text-align: center;
-}
-
 .title-span{
     font-weight: 900;
 }
@@ -846,19 +846,19 @@ h4{
     align-items: center;
 }
 
-.we-are p{
+.newairs-data .we-are p{
     font-size: 22px;
 }
 
-.we-are p span{
+.newairs-data .we-are p span{
     font-weight: 800;
 }
 
-.we-are p span a{
+.newairs-data .we-are p span a{
     color: #00d0c2;
 }
 
-.we-are p span a:hover{
+.newairs-data .we-are p span a:hover{
     color: #152b42;
     font-size: 25px;
     transition: all .5s ease-in-out;
@@ -1490,7 +1490,7 @@ footer .footer-data{
         font-size: 20px;
     }
     
-    .we-are p{
+    .newairs-data .we-are p{
         font-size: 20px;
     }
 }

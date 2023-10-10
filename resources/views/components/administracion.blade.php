@@ -2,12 +2,12 @@
     {{-- <h1>Administracion de consorcios</h1> --}}
 
     <div class="our-clients">
-        <h2>Nuevas incorporaciones</h2>
+        <p class="page-title">Nuevas incorporaciones</p>
         <div class="buildings">
             @include("components.buildings")
         </div>
 
-        <h2>Nuestros consorcistas</h2>
+        <p class="page-title">Nuestros consorcistas</p>
         <div class="clients">
             @foreach ( Data::$clients as $addres)
                 <div class="client">
@@ -17,7 +17,7 @@
             @endforeach
         </div>
 
-        <h2>Nuestros clientes</h2>
+        <p class="page-title">Nuestros clientes</p>
         <div class="clients-logos">
             @foreach ( Data::$clients_logo as $image)
                 <img src="/assets/images/clients/{{ $image }}.png">

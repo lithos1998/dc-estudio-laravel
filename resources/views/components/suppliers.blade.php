@@ -1,4 +1,4 @@
-<h4>Nuestros proveedores</h4>
+<p class="page-title">Nuestros proveedores</p>
 
 <div class="our-suppliers">
     <div class="consorcio-libre">

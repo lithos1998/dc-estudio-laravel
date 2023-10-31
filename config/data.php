@@ -91,16 +91,31 @@ class Data{
             "class" => "fa-solid fa-calculator",
             "title" => "Asesoramiento Impositivo",
             "data" => array(
-                "Liquidación de impuestos nacionales: ganancias, bienes personales, IVA,  ganancia mínima presunta, bienes personales acciones y participaciones societarias, SICORE, SIRE, impuestos internos, etc. (tanto de personas jurídicas como físicas)",
-                "Liquidación de impuestos provinciales: ingresos brutos, convenio multilateral, agentes de recaudación (retenciones y percepciones), sellos, inmobiliario, etc. (tanto de personas jurídicas como físicas)",
-                "Presentación de regímenes de información varios: participaciones societarias, régimen informativo de compras y ventas, fideicomisos, representantes de sujetos del exterior, etc",
-                "Planeamiento Fiscal",
-                "Atención de inspecciones",
-                "Contestación de intimaciones y elaboración de descargos",
-                "Presentación de moratorias y sinceramientos fiscales (blanqueos)",
-                "Relevamiento de situación tributaria y armado de plan de regularización",
-                "tención a pequeños contribuyentes: monotributistas y régimen simplificado de ingresos brutos",
-                "Cuarta categoría: elaboración de declaraciones juradas informativas de ganancias y bienes personales y carga de Siradig (F.572 web)"
+                "Inscripciones impositivas para el inicio de la actividad en Personas Humanas y/o Jurídicas ante los
+                diferentes organismos",
+                "Régimen Simplificado para Pequeños Contribuyentes (Monotributo e Ingresos Brutos Locales):
+                Confección de Facturas Electrónicas. Recategorización. Modificación de Datos. Bajas. Generación
+                de VEP y Boletas de Pagos",
+                "Autónomos: Reempadronamiento. Preparación de VEP para su pago mensual",
+                "Liquidación Mensual y Anual de Impuestos Nacionales, Provinciales y Municipales: Impuesto a las
+                Ganancias. Bienes Personales. IVA. Bienes Personales, Acciones y Participaciones Societarias.
+                Ingresos Brutos Local y Convenio Multilateral. Tasa de Seguridad e Higiene",
+                "Liquidación de Regímenes de Información, Retención y Percepción. (SICORE)",
+                "Empleados de Cuarta Categoría: Elaboración de Declaraciones Juradas Informativas de Ganancias
+                y Bienes Personales. Carga de SIRADIG (Formulario 572 Web)",
+                "Blanqueos Impositivos, Moratorias y Planes de Facilidades de Pago",
+                "Personal de Casas Particulares: Altas y Bajas en AFIP y ART. Emisión de Recibos de Sueldos y VEP
+                de Cargas Sociales",
+                "Devolución de Percepciones Sujetos No Inscriptos",
+                "Asistencia en la atención de inspecciones, fiscalizaciones y requerimientos",
+                "Relevamiento de Situación Tributaria",
+                "Planificación Impositiva",
+                "Asesoramiento Impositivo Integral Personalizado",
+                "Agenda de Vencimientos",
+                "Solicitud de Certificados: Ingresos de Fondos. ITI. COTI. CETA",
+                "Impuesto de Sellos",
+                "Impuesto a la Transferencia Gratuita de Bienes en Provincia de Buenos Aires",
+                "Actualización constante en novedades impositivas"
             )
         ],
         [
@@ -108,35 +123,23 @@ class Data{
             "class" => "fa-solid fa-chart-line",
             "title" => "Auditoría y Asesoramiento Contable",
             "data" => array(
-                "Auditoría de estados contables de acuerdo con normas y prácticas profesionales nacionales e internacionales",
-                "Elaboración de estados contables (balances)",
-                "Auditoría operativa",
-                "Auditoría societaria",
-                "Outsourcing contable",
-                "Contabilidad de PYMEs",
-                "Consultoría de PYMEs",
-                "Relevamiento de sistemas de control interno",
-                "Evaluación de procedimientos contables y administrativos",
-                "Asesoramiento para la implementación de nuevos sistemas contables",
-                "Emisión de informes y certificaciones para fines específicos",
-                "Certificaciones de ingresos, de orígenes de fondos, literales, etc"
+                "Armado y Confección de Estados Contables, Anexos y Notas Complementarias",
+                "Informes y Certificaciones Contables",
+                "Auditoria de Estados Contables y Especiales. (Administración de Consorcios, Operativas, Circuitos
+                Administrativos)",
+                "Organización y Copiado de Libros Contables"
             )
         ],
         [
-            "id" => "societario",
+            "id" => "comercial",
             "class" => "fa-regular fa-handshake",
-            "title" => "Asesoramiento Societario",
+            "title" => "Administración y Comercial",
             "data" =>  array(
-                "Constitución de sociedades",
-                "Reformas estatutarias y otras inscripciones",
-                "Cambio de jurisdicción",
-                "Cambio de sede social sin reforma de estatuto",
-                "Designación de administradores",
-                "I.G.J.: presentación anual de balances y otros trámites",
-                "Sociedades extranjeras",
-                "Uniones transitorias de empresas",
-                "Transferencia de fondos de comercio",
-                "Fundaciones, asociaciones civiles y otras entidades sin fines de lucro"
+                "Análisis de Costos, Presupuestos, Cash Flow e Informes de Gestión",
+                "Elaboración y/o Evaluación de Planes de Negocios",
+                "Proyecciones de Ventas",
+                "Servicio integrado de Pagos a Proveedores y Gestión de Cobranzas",
+                "Outsourcing Financiero y Contable"
             )
         ],
         [
@@ -144,12 +147,15 @@ class Data{
             "class" => "fa-solid fa-briefcase",
             "title" => "Asesoramiento Laboral",
             "data" =>  array(
-                "Liquidación de sueldos",
-                "Liquidación de cargas sociales",
-                "Liquidación de contribuciones sindicales",
-                "Certificaciones de servicios y remuneraciones",
-                "Libros de sueldos y jornales",
-                "Análisis de costos laborales"
+                "Inscripciones como empleador y ante los distintos sindicatos",
+                "Tramitación de altas tempranas, modificación y bajas del personal tanto en AFIP como en los
+                sindicatos respectivos",
+                "Liquidación de Sueldos y Cargas Sociales",
+                "Confección del Libro de Sueldos Digital",
+                "Rúbrica de Libro de Sueldos en diferentes formatos",
+                "Contratación de ART y Seguro de Vida Obligatorio",
+                "Certificaciones de Servicios y Remuneraciones",
+                "Asesoramiento"
             )
         ]
     ];

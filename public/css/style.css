@@ -652,12 +652,11 @@ select:-webkit-autofill:focus{
     padding: 0px 20px;
 }
 
-h4{
+.page-title{
     width: 100%;
-    font-size: 40px;
     color: var(--main-blue);
     text-align: center;
-    margin-bottom: 0px !important;
+    margin-bottom: 30px !important;
 }
 
 .consorcio-libre{
@@ -813,7 +812,7 @@ h4{
 
 .section-contable .us-contable p{
     text-align: center;
-    font-size: 22px;
+    font-size: 27px;
     color: var(--main-blue);
 }
 
@@ -846,7 +845,7 @@ h4{
 }
 
 .div-contable div p{
-    margin: 8px 0px;
+    margin: 30px 0px;
     font-size: 20px;
     color: #fcfcfc;
 }
@@ -864,6 +863,7 @@ h4{
     padding-right: 25px;
     padding-top: 0px;
 }
+
 
 /* contable */
 
@@ -1135,6 +1135,12 @@ h4{
 
 
 /* administracion */
+
+/* certificaciones */
+
+
+
+/* certificaciones */
 
 
 /* pages */

@@ -138,6 +138,39 @@ body{
 }
 
 
+/* more info */
+.further-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.further-info p{
+    font-size: 35px;
+}
+
+.further-info a{
+    width: 60%;
+    height: 50px;
+    font-size: 35px;
+    background-color: var(--main-blue);
+    color: var(--main-white);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    text-align: center;
+    font-family: var(--myriad-bold);
+    text-decoration: none;
+}
+
+.further-info a:hover{
+    background-color: var(--aqua-blue);
+    color: var(--main-blue);
+}
+
+
 /* user message */
 .user-msg-div{
     display: flex;
@@ -897,8 +930,13 @@ select:-webkit-autofill:focus{
     align-items: center;
 }
 
+.we-are .further-info{
+    margin-bottom: 20px !important;
+}
+
 .newairs-data .we-are p{
     font-size: 22px;
+    text-align: center;
 }
 
 .newairs-data .we-are p span{
@@ -1137,8 +1175,72 @@ select:-webkit-autofill:focus{
 /* administracion */
 
 /* certificaciones */
+    .certificaciones-logos{        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
 
+    .certificaciones-logos img{        
+        width: 150px;
+    }
 
+    .certificaciones-logos i{        
+        font-size: 80px;
+        color: var(--main-blue);
+        margin: 0px 30px;
+    }
+
+    .certificaciones-presentacion{
+        margin-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    
+    .certificaciones-presentacion p{
+        font-size: 35px;
+        text-align: center;
+        color: var(--main-blue);
+        margin-bottom: 60px;
+    }
+
+    .certificaciones-presentacion p span{
+        font-weight: 700;
+        color: var(--main-blue);
+    }
+
+    .dovalle-services{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .dovalle-service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 20px;
+        width:  250px;
+        height: 200px !important;
+    }
+
+    .dovalle-service i{
+        font-size: 60px !important;
+        color: var(--main-blue);
+    }
+
+    .dovalle-service p{
+        font-size: 25px !important;
+        color: var(--main-blue);
+        text-align: center;
+    }
 
 /* certificaciones */
 

@@ -2,7 +2,11 @@ $(document).ready(function(){
     var nav_status = 0;
 
     if (window.location.pathname == '/administracion') {
-        go_to_administration();
+        go_to_section('#administracion');
+    }
+
+    if (window.location.pathname == '/contacto') {
+        go_to_section('#contact-home');
     }
 
     // go up to the top screen
@@ -98,8 +102,8 @@ $(document).ready(function(){
         }
     }
 
-    function go_to_administration(){
-        $('html,body').stop().animate({scrollTop: $('#administracion').offset().top - 60}, 800);
+    function go_to_section(section){
+        $('html,body').stop().animate({scrollTop: $(section).offset().top - 60}, 800);
     }
 });  
 

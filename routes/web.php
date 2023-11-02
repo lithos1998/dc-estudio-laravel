@@ -19,6 +19,10 @@ Route::get('/inicio', function () {
     return redirect('/');
 });
 
+Route::get('/contacto', function () {
+    return view('welcome');
+})->name('principal');
+
 Route::get('/administracion', function () {
     return view('welcome');
 });

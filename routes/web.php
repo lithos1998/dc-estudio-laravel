@@ -25,7 +25,7 @@ Route::get('/contacto', function () {
 
 Route::get('/administracion', function () {
     return view('welcome');
-});
+})->name('principal');
 
 Route::get('/contable', function () {
     return Response::view('contable');

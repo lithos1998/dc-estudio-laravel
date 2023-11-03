@@ -1,10 +1,6 @@
 <?php
-
-use Illuminate\Http\Request;
-use Illuminate\Mail\Mailer;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\View;
 
 
 Route::get('/', function () {
@@ -12,7 +8,7 @@ Route::get('/', function () {
 })->name('principal');
 
 Route::get('/home', function () {
-    return redirect('principal');
+    return redirect('/');
 });
 
 Route::get('/inicio', function () {
@@ -28,19 +24,19 @@ Route::get('/administracion', function () {
 })->name('principal');
 
 Route::get('/contable', function () {
-    return Response::view('contable');
+    return view('contable');
 });
 
 Route::get('/blogs', function () {
-    return Response::view('blogs');
+    return view('blogs');
 });
 
 Route::get('/certificaciones', function () {
-    return Response::view('certificaciones');
+    return view('certificaciones');
 });
 
 Route::get('/newairs', function () {
-    return Response::view('newairs');
+    return view('newairs');
 });
 
 

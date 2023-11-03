@@ -1199,14 +1199,12 @@ select:-webkit-autofill:focus{
         flex-direction: column;
         align-items: center;
     }
-
-    
     
     .certificaciones-presentacion p{
         font-size: 35px;
         text-align: center;
         color: var(--main-blue);
-        margin-bottom: 60px;
+        margin-bottom: 10px;
     }
 
     .certificaciones-presentacion p span{

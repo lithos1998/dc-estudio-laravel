@@ -1,4 +1,4 @@
-<div class="administracion" id="administracion">
+<div class="administracion container" id="administracion">
     {{-- <h1>Administracion de consorcios</h1> --}}
 
     <div class="our-clients">
@@ -11,7 +11,7 @@
         <div class="clients">
             @foreach ( Data::$clients as $addres)
                 <div class="client">
-                    <img src="/assets/images/logo.png" width="120">
+                    <img src="/assets/images/logo.png">
                     <h3>{{ $addres }}</h3>
                 </div>
             @endforeach

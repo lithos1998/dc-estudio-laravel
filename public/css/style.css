@@ -77,6 +77,10 @@ body{
     margin: 0em !important;
 }
 
+/* body div{
+    background-color: pink !important;
+} */
+
 .page-title{
     font-size: 45px;
     color: var(--main-blue);
@@ -677,11 +681,18 @@ select:-webkit-autofill:focus{
     margin-top: 10px;
     margin-bottom: 70px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
 }
 
-.our-suppliers .consorcio-libre, .our-suppliers .suppliers{
+.our-suppliers-data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.our-suppliers-data .consorcio-libre, .our-suppliers-data .suppliers{
     padding: 0px 20px;
 }
 
@@ -999,7 +1010,6 @@ select:-webkit-autofill:focus{
 .administracion{
     display: flex;
     flex-direction: column;
-    width: 100%;
     max-width: 100%;
 }
 
@@ -1021,12 +1031,11 @@ select:-webkit-autofill:focus{
 
 
 .admin-images{
-    width: 300px;
+    width: 100%;
     box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.658);
 }
 
 .our-clients{
-    padding: 0px 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1042,7 +1051,7 @@ select:-webkit-autofill:focus{
 }
 
 .clients-logos{
-    height: 200px !important;
+    /* height: 100% !important; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1051,14 +1060,14 @@ select:-webkit-autofill:focus{
 }
 
 .clients-logos img{
-    width: 250px !important;
+    width: 20% !important;
     margin: 0px 50px;
     max-height: 50% !important;
 }
 
 .clients{
     margin-top: 50px;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1069,6 +1078,10 @@ select:-webkit-autofill:focus{
     flex-direction: column;
     align-items: center;
     margin: 0px 30px;
+}
+
+.clients .client img{
+    width: 120px;
 }
 
 .clients .client i{
@@ -1482,8 +1495,25 @@ footer .footer-data{
 /* construction */
 
 
-
 /* media query */
+@media screen and (max-width:1500px) {
+    .building-img {
+        margin-bottom: 30px !important;
+    }
+
+    .building{
+        margin: 10px 30px !important;
+    }
+
+    .page-title{
+        margin: 20px 0px;
+    }
+
+    .suppliers img{
+        max-width: 170px !important;
+    }
+}
+
 @media screen and (max-width:1400px) {
     #contact-form input, #contact-form select{
         font-size: 16px;
@@ -1501,6 +1531,31 @@ footer .footer-data{
     .div-qr img{
         width: 170px;
     }
+
+    .admin-presentation-data{
+        margin-top: 15px;
+    }
+
+    .admin-presentation-data p{
+        font-size: 25px;
+    }
+
+    .building-img{
+        margin-top: 0px;
+    }
+
+    .clients .client h3{
+        font-size: 25px;
+    }
+
+    .clients{
+        margin-top: 5px;
+    }
+
+    .suppliers img{
+        max-width: 150px;
+        min-width: 150px;
+    }
 }
 
 @media screen and (max-width:1300px) {
@@ -1515,6 +1570,30 @@ footer .footer-data{
 
     .section-contable .us-contable p{
         font-size: 20px;
+    }
+
+    .logo-dc-admin img{
+        width: 140px;
+    }
+
+    .logo-dc-admin h1{
+        font-size: 40px;
+    }
+
+    .clients .client h3{
+        text-align: center;
+    }
+
+    .info-consorcio{
+        flex-direction: column;
+    }
+
+    .video-consorcio{
+        height: 320px;
+    }
+
+    .logo-consorcio{
+        margin-bottom: 0px;
     }
 }
 
@@ -1571,6 +1650,56 @@ footer .footer-data{
     .section-contable .us-contable {
         width: 40%;
     }
+
+    .logo-dc-admin{
+        margin: 0px !important;
+    }
+
+    .building h3{
+        font-size: 20px;
+    }
+
+    .building h2{
+        font-size: 32px;
+    }
+
+    #video-yt{
+        margin-top: 40px;
+        height: 70%;
+    }
+
+    .suppliers img{
+        max-width: 140px !important;
+        min-width: 140px !important;
+        margin: 10px 20px !important;
+    }
+
+    .div-qr img{
+        width: 140px;
+    }
+
+    .suppliers{
+        align-items: self-start !important;
+    }
+
+    .contact-us, .contact-us-form{
+        padding: 0px !important;
+    }
+
+    .go-up{
+        width: 50px;
+        height: 50px;
+        bottom: 140px;
+    }
+
+    .go-up i{
+        font-size: 30px;
+    }
+
+
+    .wpp-me i{
+        font-size: 55px;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -1618,6 +1747,82 @@ footer .footer-data{
     .newairs-data .we-are p{
         font-size: 20px;
     }
+
+    .page-title{
+        font-size: 38px;
+    }
+
+    .check-group .check i, .check-group .check h2{
+        font-size: 30px;
+        margin-right: 0px !important;
+    }
+
+    .admin-presentation-data p{
+        font-size: 20px;
+    }
+
+    .building{
+        margin: 10px 10px !important;
+    }
+    
+    .clients .client img{
+        width: 100px;
+    }
+
+    .clients .client h3{
+        font-size: 20px;
+    }
+
+    .fixed-nav-bar .nav-buttons a{
+        font-size: 14px;
+    }
+
+    .clients-logos{
+        flex-wrap: wrap;
+    }
+
+    .clients-logos img{
+        margin-bottom: 20px;
+    }
+
+    .our-suppliers-data{
+        flex-direction: column-reverse;
+    }
+
+    .suppliers{
+        width: 100%;
+        align-items: center !important;
+        padding: 0px !important;
+    }
+
+    .suppliers img{
+        max-width: 180px !important;
+        min-width: 180px !important;
+    }
+
+    .consorcio-libre{
+        margin-top: 30px;
+        width: 100%;
+        padding: 0px !important;
+    }
+
+    .info-consorcio{
+        flex-direction: row;
+    }
+
+    .video-consorcio{
+        width: 50% !important;
+    }
+
+    .info-consorcio{
+        margin-bottom: 0px !important;
+    }
+
+    .consorcio-button {
+        width: 60%;
+        height: 40px;
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -1658,6 +1863,72 @@ footer .footer-data{
 
     .contact-nav a{
         font-size: 18px;
+    }
+
+    .nav-bar .nav-buttons a{
+        font-size: 14px !important;
+    }
+
+    .logo-dc-admin img{
+        width: 120px;
+    }
+
+    .logo-dc-admin h1{
+        font-size: 30px;
+    }
+
+    .check-group .check i, .check-group .check h2{
+        font-size: 26px;
+    }
+
+    .container{
+        padding: 0px 60px !important;
+    }
+
+    .clients .client h3{
+        font-size: 17px;
+    }
+
+    .page-title{
+        font-size: 32px;
+    }
+
+    .suppliers img{
+        max-width: 160px !important;
+        min-width: 160px !important;
+        margin: 30px 20px !important;
+    }
+
+    .logo-consorcio{
+        width: 400px;
+    }
+
+    .contact-text{
+        font-size: 20px;
+    }
+
+    #contact-form input{
+        background-color: transparent !important;
+    }
+
+    .contact-div .contact-us{
+        margin-bottom: 30px;
+    }
+
+    .footer-logo img{
+        width: 90px;
+    }
+
+    .footer-logo div p:first-child{
+        font-size: 40px;
+    }
+
+    .footer-logo div p:last-child{
+        font-size: 20px;
+    }
+
+    .footer-contact{
+        align-items: center;
     }
 }
 
@@ -1709,6 +1980,27 @@ footer .footer-data{
 
     .contact-us{
         margin-bottom: 15px;
+    }
+
+    .admin-presentation-data p{
+        font-size: 17px;
+    }
+
+    .clients .client{
+        margin: 0px 15px;
+    }
+
+    .clients .client h3{
+        font-size: 17px;
+    }
+
+    .clients-logos img{
+        margin-bottom: 35px;
+    }
+
+    .suppliers img {
+        max-width: 140px;
+        min-width: 140px;
     }
 }
 
@@ -1780,16 +2072,55 @@ footer .footer-data{
         width: 75%;
     }
 
+    .check-group .check i, .check-group .check h2{
+        font-size: 22px;
+    }
+    
+    .logo-dc-admin img{
+        width: 100px;
+    }
+
+    .logo-dc-admin h1{
+        font-size: 26px;
+    }
+
+    .building h2{
+        font-size: 28px;
+    }
+
+    .building h3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .building h4{
+        font-size: 20px;
+    }
+
+    #video-yt {
+        height: 55%;
+    }
+
+    .contact-div div{
+        padding: 0px !important;
+        width: 100% !important;
+    }
 }
 
 
 @media screen and (max-width:600px) {    
     .logo-institution p {
-        width: 40%;
+        width: 32%;
+        margin-right: 0px !important;
+    }
+
+    .logo-institution .contact-nav{
+        margin-right: 10px;
     }
 
     .contact-nav a{
         margin: 0px 10px;
+        font-size: 17px !important;
     }
 
     .deco-footer, footer{
@@ -1805,16 +2136,13 @@ footer .footer-data{
         font-size: 30px;
     }
 
-    .contact-nav a{
-        font-size: 15px;
-    }
-
     #video-yt{
         width: 100%;
     }
 
     .footer-logo{
-        margin-left: 30px;
+        margin-left: 10px;
+        width: 0% !important;
     }
 
     .go-up{
@@ -1825,6 +2153,70 @@ footer .footer-data{
     
     .go-up i{
         font-size: 30px;
+    }
+
+    .check-group .check h2{
+        margin-left: 4px;
+    }
+
+    .clients-logos img{
+        width: 35% !important;
+    }
+
+    .clients{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .clients .client{
+        width: 40%;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+    .suppliers img{
+        max-width: 120px !important;
+        min-width: 120px !important;
+        margin: 10px 20px !important;
+    }
+
+    .contact-div .contact-us {
+        flex-direction: column !important;
+    }
+
+    .logo-consorcio{
+        width: 350px;
+    }
+
+    .info-consorcio{
+        flex-direction: column !important;
+    }
+
+    #video-yt{
+        margin-top: 15px;
+        height: 75%;
+    }
+
+    .video-consorcio{
+        height: 220px;
+        width: 70% !important;
+        margin-bottom: 20px;
+    }
+
+    .div-qr{
+        margin-bottom: 25px;
+    }
+
+    .footer-logo a{
+        margin-left: 0px !important;
+    }
+
+    .buildings{
+        flex-wrap: wrap;
+    }
+
+    .building{
+        width: 40% !important;
     }
 }
 

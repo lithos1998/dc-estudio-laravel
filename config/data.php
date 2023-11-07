@@ -16,10 +16,10 @@ class Data{
     ];  
 
     public static $newairs_services = [
-        "Limpieza integral para consorcios" => "building",
-        "Limpieza para servicios Airbnb" => "airbnb",
-        "Instituciones educativas" => "school",
-        "Empresas y comercios" => "shop"
+        "Limpieza integral para consorcios" => "fa-solid fa-building",
+        "Limpieza para servicios Airbnb" => "fa-brands fa-airbnb",
+        "Instituciones educativas" => "fa-solid fa-school",
+        "Empresas y comercios" => "fa-solid fa-shop"
     ];
 
     public static $socialmedia = ['facebook', 'instagram', 'linkedin'];
@@ -29,7 +29,7 @@ class Data{
         "Consultaria contable" => "contable",
         "Certificaciones" => "certificaciones",
         "New airs" => "newairs",
-        "Blogs" => "blogs"
+        // "Blogs" => "blogs"
     ];
 
     public static $select_options = [

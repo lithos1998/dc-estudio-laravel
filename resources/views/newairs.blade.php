@@ -21,7 +21,8 @@
             <div class="services">                
                 @foreach (Data::$newairs_services as $title => $class )                   
                     <div>
-                        <x-icon :icon="$class"/>
+                        {{-- <x-icon :icon="$class"/> --}}
+                        <i class="{{ $class }}"></i>
                         <h3>{{ $title }}</h3>
                     </div>                
                 @endforeach

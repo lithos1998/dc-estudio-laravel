@@ -29,6 +29,9 @@
 
         <div class="mobile-menu-nav">
             @include('components.links')
+            @if (Route::current()->getName() == 'principal')
+                <a  href="#contact-home" class="nav-buttons-main">Contacto</a>
+            @endif
         </div>
     </div>
 </nav>

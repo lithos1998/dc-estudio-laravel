@@ -1004,6 +1004,11 @@ select:-webkit-autofill:focus{
     font-family: var(--myriad-regular);
 }
 
+.newairs-services .services div i{
+    font-size: 100px;
+    color: #00d0c2;
+}
+
 /* new airs */
 
 /* administracion */
@@ -1595,6 +1600,14 @@ footer .footer-data{
     .logo-consorcio{
         margin-bottom: 0px;
     }
+
+    .newairs-data .container{
+        padding: 0px 60px !important;
+    }
+
+    .certificaciones-presentacion p{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -1700,11 +1713,23 @@ footer .footer-data{
     .wpp-me i{
         font-size: 55px;
     }
+
+    .certificaciones-presentacion p{
+        font-size: 26px !important;
+    }
+    
+    .certificaciones-presentacion{
+        margin-bottom: 80px !important;
+    }
+
+    .further-info p, .further-info a{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:1024px) {
     .section-contable{
-        flex-direction: column-reverse;
+        flex-direction: column;
         max-width: 100% !important;
         justify-content: center;
         align-items: center;
@@ -1717,6 +1742,10 @@ footer .footer-data{
 
     .section-contable .us-contable p{
         margin: 20px 60px !important;
+    }
+
+    .further-info{
+        margin-bottom: 0px !important;
     }
 
     .contable-services {
@@ -1822,6 +1851,18 @@ footer .footer-data{
         width: 60%;
         height: 40px;
         font-size: 25px;
+    }
+
+    .newairs-data .container{
+        padding: 0px 40px !important;
+    }
+
+    .dovalle-service{
+        width: 200px !important;
+    }
+    
+    .container .further-info{
+        margin-bottom: 30px !important;
     }
 }
 
@@ -1930,6 +1971,19 @@ footer .footer-data{
     .footer-contact{
         align-items: center;
     }
+
+    .newairs-data .we-are p{
+        margin-bottom: 0px;
+    }
+
+    .further-info a{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .certificaciones-presentacion p{
+        font-size: 24px !important;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -2001,6 +2055,41 @@ footer .footer-data{
     .suppliers img {
         max-width: 140px;
         min-width: 140px;
+    }
+
+    .newairs-services .services div i{
+        font-size: 80px;
+    }
+
+    .newairs-logo{
+        width: 250px;
+    }
+
+    .newairs-services .services{
+        width: 100%;
+    }
+
+    .dovalle-service {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .dovalle-service p{
+        font-size: 20px !important;
+    }
+
+    .further-info p, .further-info a{
+        font-size: 25px;
+    }
+
+    .further-info a{
+        width: 45% !important;
+        height: 40px;
+        margin-top: 0px !important;
+    }
+
+    .dovalle-services {
+        margin-bottom: 0px !important;
     }
 }
 
@@ -2105,10 +2194,48 @@ footer .footer-data{
         padding: 0px !important;
         width: 100% !important;
     }
+
+    .contact-div .contact-us{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .contact-div .contact-us div{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .social-media a{
+        margin: 0px 10px !important;
+    }
+
+    .new-airs-page{
+        flex-direction: column;
+    }
+
+    .newairs-data, .newairs-services{
+        width: 100% !important;
+    }
+
+    .newairs-services .services {
+        width: 90% !important;
+    }
+
+    .dovalle-service {
+        width: 110px !important;
+    }
+
+    .dovalle-service p{
+        font-size: 18px !important;
+    }
 }
 
 
-@media screen and (max-width:600px) {    
+@media screen and (max-width:600px) { 
+    .certificaciones-presentacion p{
+        font-size: 21px !important;
+    }
+
     .logo-institution p {
         width: 32%;
         margin-right: 0px !important;
@@ -2338,10 +2465,70 @@ footer .footer-data{
     #contact-link, #us-link{
         display: none !important;
     }
+
+    .consorcio-button{
+        width: 70% !important;
+        font-size: 20px;
+    }
+    
+    .further-info{
+        margin-bottom: 20px !important;
+    }
+
+    .check-group .check i, .check-group .check h2{
+        font-size: 20px;
+    }
+
+    .logo-dc-admin{
+        width: 60%;
+    }
+
+    .logo-dc-admin h1{
+        width: 30%;
+    }
+
+    .admin-presentation-data p{
+        font-size: 19px;
+    }
+
+    .social-media{
+        margin-top: 25px !important;
+    }
+    
+    .check-group{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media a{
+        margin: 0px 10px !important;
+    }
+
+    .contact{
+        padding: 0px 40px;
+    }
+
+    .logo-institution p {
+        margin-right: 10px !important;
+    }
+
+    .further-info p, .further-info a{
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .further-info a{
+        height: 35px !important;
+    }
 }
 
 @media screen and (max-width:400px) {
     .contable-services div{
         width: 92%;
+    }
+
+    .consorcio-button{
+        width: 80% !important;
+        font-size: 18px !important;
     }
 }

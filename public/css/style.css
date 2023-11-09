@@ -1183,7 +1183,7 @@ select:-webkit-autofill:focus{
   position: relative;
   padding: 7px 0;
   top: 26px;
-  left: -111px;
+  left: -128px;
   width: 120px;
   background-color: #eb3434;
   color: #fff;
@@ -1354,6 +1354,10 @@ footer .footer-data{
     color:var(--aqua-blue);
 }
 
+.footer-contact .social-media{
+    margin-top: 0px !important;
+}
+
 /* footer */
 
 
@@ -1501,6 +1505,18 @@ footer .footer-data{
 
 
 /* media query */
+@media screen and (max-width:1700px) {
+    .ribbon{
+        left: -120px;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    .ribbon{
+        left: -105px;
+    }
+}
+
 @media screen and (max-width:1500px) {
     .building-img {
         margin-bottom: 30px !important;
@@ -1516,6 +1532,11 @@ footer .footer-data{
 
     .suppliers img{
         max-width: 170px !important;
+    }
+
+    .ribbon{
+        font: bold 18px sans-serif;
+        top: 14px !important;
     }
 }
 
@@ -1560,6 +1581,11 @@ footer .footer-data{
     .suppliers img{
         max-width: 150px;
         min-width: 150px;
+    }
+
+    .ribbon{
+        top: 22px !important;
+        left: -90px !important;
     }
 }
 
@@ -1607,6 +1633,11 @@ footer .footer-data{
 
     .certificaciones-presentacion p{
         font-size: 30px;
+    }
+
+    .ribbon{
+        font-size: 15px !important;
+        left: -78px !important;
     }
 }
 
@@ -1724,6 +1755,15 @@ footer .footer-data{
 
     .further-info p, .further-info a{
         font-size: 30px;
+    }
+
+    .ribbon{
+        font-size: 14px !important;
+        left: -68px !important;
+    }
+
+    .building{
+        margin: 10px 12px !important;
     }
 }
 
@@ -1864,9 +1904,17 @@ footer .footer-data{
     .container .further-info{
         margin-bottom: 30px !important;
     }
+
+    .ribbon{
+        top: 16px !important;
+    }
 }
 
 @media screen and (max-width:900px) {
+    .ribbon{
+        left: -60px !important;
+    }
+
     .contact-div{
         flex-direction: column-reverse !important;
         height: fit-content !important;
@@ -1987,6 +2035,11 @@ footer .footer-data{
 }
 
 @media screen and (max-width:800px) {
+    .ribbon{
+        top: 12px !important;
+        left: -54px !important;
+    }
+
     .contact-text{
         font-size: 20px;
     }
@@ -2094,6 +2147,11 @@ footer .footer-data{
 }
 
 @media screen and (max-width:700px) {
+    .ribbon{
+        font-size: 11px !important;
+        left: -42px !important;
+    }
+
     .logo-institution p {
         margin-right: 15px;
     }
@@ -2231,7 +2289,11 @@ footer .footer-data{
 }
 
 
-@media screen and (max-width:600px) { 
+@media screen and (max-width:600px) {
+    .ribbon{
+        left: -68px !important;
+    } 
+
     .certificaciones-presentacion p{
         font-size: 21px !important;
     }
@@ -2522,7 +2584,7 @@ footer .footer-data{
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .contable-services div{
         width: 92%;
     }
@@ -2530,5 +2592,9 @@ footer .footer-data{
     .consorcio-button{
         width: 80% !important;
         font-size: 18px !important;
+    }
+
+    .ribbon{
+        left: -40px !important;
     }
 }

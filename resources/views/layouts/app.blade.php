@@ -28,7 +28,7 @@
         </div>
 
         <div class="wpp-me" id="wppMe">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491127871148&text=Hola%20deseo%20informacion%20sobre%20estudio%20cociancih">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491127871148&text=Hola%20vengo%20de%20estudio%20cociancih%20y%20deseo%20informacion">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
         </div>

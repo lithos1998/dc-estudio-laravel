@@ -51,16 +51,23 @@ $(document).ready(function(){
     $('#administracion-nav').click(function(e){
         if (window.location.pathname == '/') {
             e.preventDefault();
-            go_to_administration();
+            go_to_section('#administracion');
         }
     });
 
     $('#fixed-bar #administracion-nav').click(function(e){
         if (window.location.pathname == '/') {
             e.preventDefault();
-            go_to_administration();
+            go_to_section('#administracion');
         }
     });    
+
+    $('.mobile-menu-nav #administracion-nav').click(function(e){
+        if (window.location.pathname == '/') {
+            e.preventDefault();
+            go_to_section('#administracion');
+        }
+    });  
 
     // go to consorcio abierto's page
     $('.div-qr').click(function (e) { 
@@ -102,8 +109,8 @@ $(document).ready(function(){
         }
     }
 
-    function go_to_section(section){
-        $('html,body').stop().animate({scrollTop: $(section).offset().top - 60}, 800);
+    function go_to_section(section, e){
+        $('html,body').stop().animate({scrollTop: $(section).offset().top - 80}, 600);
     }
 });  
 

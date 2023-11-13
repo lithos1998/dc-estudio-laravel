@@ -74,19 +74,6 @@ class Data{
 
     public static $contable = [
         [
-            "id" => "monotributista",
-            "class" => "fa-solid fa-coins",
-            "title" => "Monotributista",
-            "data" =>  array(
-                "Asesoramiento e Inscripción",
-                "Categorización según actividad",
-                "Liquidación de Ingresos Brutos",
-                "Facturación",
-                "Re categorización Cuatrimestral",
-                "Declaración Jurada Cuatrimestra"
-            )
-        ],
-        [
             "id" => "impositivo",
             "class" => "fa-solid fa-calculator",
             "title" => "Asesoramiento Impositivo",
@@ -119,6 +106,23 @@ class Data{
             )
         ],
         [
+            "id" => "laboral",
+            "class" => "fa-solid fa-briefcase",
+            "title" => "Asesoramiento Laboral",
+            "data" =>  array(
+                "Inscripciones como empleador y ante los distintos sindicatos",
+                "Tramitación de altas tempranas, modificación y bajas del personal tanto en AFIP como en los
+                sindicatos respectivos",
+                "Liquidación de Sueldos y Cargas Sociales",
+                "Confección del Libro de Sueldos Digital",
+                "Presentación de Declaraciones Juradas y Boletas de Sindicatos",
+                "Rúbrica de Libro de Sueldos en diferentes formatos",
+                "Contratación de ART y Seguro de Vida Obligatorio",
+                "Certificaciones de Servicios y Remuneraciones",
+                "Asesoramiento"
+            )
+        ],
+        [
             "id" => "auditoria",
             "class" => "fa-solid fa-chart-line",
             "title" => "Auditoría y Asesoramiento Contable",
@@ -140,22 +144,6 @@ class Data{
                 "Proyecciones de Ventas",
                 "Servicio integrado de Pagos a Proveedores y Gestión de Cobranzas",
                 "Outsourcing Financiero y Contable"
-            )
-        ],
-        [
-            "id" => "laboral",
-            "class" => "fa-solid fa-briefcase",
-            "title" => "Asesoramiento Laboral",
-            "data" =>  array(
-                "Inscripciones como empleador y ante los distintos sindicatos",
-                "Tramitación de altas tempranas, modificación y bajas del personal tanto en AFIP como en los
-                sindicatos respectivos",
-                "Liquidación de Sueldos y Cargas Sociales",
-                "Confección del Libro de Sueldos Digital",
-                "Rúbrica de Libro de Sueldos en diferentes formatos",
-                "Contratación de ART y Seguro de Vida Obligatorio",
-                "Certificaciones de Servicios y Remuneraciones",
-                "Asesoramiento"
             )
         ]
     ];

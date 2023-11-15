@@ -32,7 +32,7 @@
 
         <div class="suppliers">
             @foreach (Data::$suppliers as $logo)
-                <img src="assets/images/suppliers/{{ $logo }}.png">
+                <img src="assets/images/suppliers/{{ $logo }}.png" alt="Logo de {{ $logo }}">
             @endforeach
         </div>                 
     </div>

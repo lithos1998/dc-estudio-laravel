@@ -1,7 +1,8 @@
 <div class="administracion container" id="administracion">
-    {{-- <h1>Administracion de consorcios</h1> --}}
 
     <div class="our-clients">
+        <h2 class="admin-title">Administracion de consorcios</h2>
+
         <p class="page-title">Nuevas incorporaciones</p>
         <div class="buildings">
             @include("components.buildings")
@@ -20,7 +21,7 @@
         <p class="page-title">Nuestros clientes</p>
         <div class="clients-logos">
             @foreach ( Data::$clients_logo as $image)
-                <img src="/assets/images/clients/{{ $image }}.png">
+                <img src="/assets/images/clients/{{ $image }}.png" alt="Logo de {{ $image }}">
             @endforeach
         </div>
     </div>

@@ -11,6 +11,8 @@
             <p>Nuestra metodología se centra en la confidencialidad en el manejo de la información y en sostener una comunicación fluida con nuestros clientes buscando en todo momento brindar un servicio de excelencia.</p>
             
             @include('components.go-contact')
+
+            <img class="contable-img" src="/assets/images/contable.jpg">
         </div>
         
         <div class="contable-services">

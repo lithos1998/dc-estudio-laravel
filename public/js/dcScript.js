@@ -44,7 +44,7 @@ $(document).ready(function(){
     // go to a section
     $('.nav-link').click(function (e) {
         e.preventDefault($(this).attr('id'));
-        var seccion = $($(this).attr('href')).offset().top - 60;
+        var seccion = $($(this).attr('href')).offset().top;
         $('html,body').stop().animate({scrollTop: seccion}, 800);
     });
 
@@ -110,7 +110,7 @@ $(document).ready(function(){
     }
 
     function go_to_section(section, e){
-        $('html,body').stop().animate({scrollTop: $(section).offset().top - 80}, 600);
+        $('html,body').stop().animate({scrollTop: $(section).offset().top - 20}, 600);
     }
 });  
 

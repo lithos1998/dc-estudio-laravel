@@ -82,7 +82,7 @@ body{
 } */
 
 .page-title{
-    font-size: 45px;
+    font-size: 38px;
     color: var(--main-blue);
     font-family: var(--myriad-black);
     margin-bottom: 0px !important;
@@ -167,6 +167,7 @@ body{
     text-align: center;
     font-family: var(--myriad-bold);
     text-decoration: none;
+    box-shadow: 3px 4px 9px #00000052;
 }
 
 .further-info a:hover{
@@ -685,6 +686,13 @@ select:-webkit-autofill:focus{
     width: 100%;
 }
 
+.our-clients .admin-title{
+    color: var(--main-blue);
+    text-shadow: 4px 4px 7px #00000055;
+
+    font-size: 50px !important;
+}
+
 .our-suppliers-data{
     width: 100%;
     display: flex;
@@ -799,6 +807,7 @@ select:-webkit-autofill:focus{
     width: 80%;
     height: 250px;
     box-shadow: 9px 9px 25px rgba(0, 0, 0, 0.658);
+    border-radius: 20px !important;
 }
 
 .div-video-qr{
@@ -820,6 +829,7 @@ select:-webkit-autofill:focus{
     cursor: pointer;
     text-decoration: none;
     transition: all .4s ease-in-out;
+    box-shadow: 3px 5px 7px #00000079;
 }
 
 .consorcio-button:hover{
@@ -842,6 +852,9 @@ select:-webkit-autofill:focus{
 }
 
 .section-contable .us-contable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50%;
     padding: 0px 30px;
 }
@@ -866,7 +879,6 @@ select:-webkit-autofill:focus{
 }
 
 .div-contable{
-    margin-left: 40px;
     background-color: var(--main-blue);
     /* transition: all .8s ease-in-out; */
 }
@@ -908,6 +920,16 @@ select:-webkit-autofill:focus{
     padding-top: 0px;
 }
 
+.contable-img{
+    width: 100% !important;
+    border-radius: 20px;
+    box-shadow: 4px 6px 9px #00000065 ;
+    transition:all .5s ease-in-out
+}
+
+.contable-img:hover{
+    filter: grayscale(80%);
+}
 
 /* contable */
 
@@ -1007,6 +1029,7 @@ select:-webkit-autofill:focus{
 .newairs-services .services div i{
     font-size: 100px;
     color: #00d0c2;
+    text-shadow: 2px 3px 8px #00000055;
 }
 
 /* new airs */
@@ -1016,12 +1039,6 @@ select:-webkit-autofill:focus{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-}
-
-.administracion h1{
-    color: var(--main-blue);
-    text-align: center;
-    font-size: 40px;
 }
 
 .admin-presentation{
@@ -1053,6 +1070,10 @@ select:-webkit-autofill:focus{
     font-size: 40px;
     margin-bottom: 0px;
     font-family: var(--myriad-bold);
+}
+
+.our-clients .page-title{
+    margin-bottom: 0px !important;
 }
 
 .clients-logos{
@@ -1250,6 +1271,7 @@ select:-webkit-autofill:focus{
     .dovalle-service i{
         font-size: 60px !important;
         color: var(--main-blue);
+        text-shadow: 3px 4px 6px #00000051;
     }
 
     .dovalle-service p{
@@ -1907,6 +1929,10 @@ footer .footer-data{
 
     .ribbon{
         top: 16px !important;
+    }
+
+    .contable-img{
+        display: none !important;
     }
 }
 

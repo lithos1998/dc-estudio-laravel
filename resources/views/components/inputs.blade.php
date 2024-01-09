@@ -11,3 +11,5 @@
         </select>
     @endif
 @endforeach
+    
+<textarea class="comment" id="comment" placeholder="Dejenos un mensaje" name="comment"></textarea>

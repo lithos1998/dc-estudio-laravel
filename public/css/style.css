@@ -423,7 +423,7 @@ nav div{
 }
 
 .contact-div{
-    height: 220px;
+    height: 300px;
 }
 
 .contact-div .contact-us{
@@ -478,7 +478,7 @@ nav div{
 #contact-form .sent-form{
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row: 3;
+    grid-row: 4;
     transition: all 0.3s ease-in-out;
 }
 
@@ -488,7 +488,15 @@ nav div{
     grid-row: 2;
 }
 
-#contact-form input, #contact-form select{
+#contact-form .comment{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 3;
+    resize: none;
+    font-size: 25px !important;
+}
+
+#contact-form input, #contact-form select, #contact-form textarea{
     height: 40px !important;
     border: none;
     color: #f0e9e9;
@@ -497,11 +505,11 @@ nav div{
     font-size: 20px;
 }
 
-#contact-form input::placeholder{
+#contact-form input::placeholder, #contact-form textarea::placeholder{
     color: #f0e9e9;
 }
 
-#contact-form input:focus, #contact-form select:focus{
+#contact-form input:focus, #contact-form select:focus, #contact-form textarea:focus{
     outline: none !important;
     border-color: #00d0c2;
 }
@@ -511,7 +519,11 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
-select:-webkit-autofill:focus{
+select:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus
+{
     border-bottom: 4px solid #f0e9e9 !important;
     -webkit-text-size-adjust: 20px !important;
     -webkit-text-fill-color: #f0e9e9 !important;
@@ -2497,10 +2509,17 @@ footer .footer-data{
         grid-row: 4;
     }
 
-    #contact-form .sent-form{
+    #contact-form .comment{
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row: 5;
+        font-size: 20px !important;
+    }
+
+    #contact-form .sent-form{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 6;
     }
 
     .contact-us {

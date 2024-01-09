@@ -5,6 +5,8 @@ try {
         $email = $_POST["email"];
         $reason = $_POST["reason"];
         $address = $_POST["address"];
+        $comment = $_POST["comment"];
+        
 
         $mailer = 'avisos@dc.ar';
 
@@ -20,8 +22,10 @@ try {
         if($address != ''){
             $message .= "con direccion en " . $address . " \r\n";
         }
+
+        $message .= "\r\nSu mensaje: " . $comment . " \r\n";
         
-        $message .= "Enviado el " . date('d/m/Y', time());
+        $message .= "\r\nEnviado el " . date('d/m/Y', time());
 
         $to = 'info@dc.ar';
         $toPrueba = 'pruebas@dc.ar';
@@ -34,6 +38,7 @@ try {
         unset($_POST["email"]);
         unset($_POST["reason"]);
         unset($_POST["address"]);
+        unset($_POST["comment"]);
 
         $user_msg = 'mail-ok';
     }else {

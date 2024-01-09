@@ -23,6 +23,7 @@ $(document).ready(function(){
         var email = $('#email');
         var address = $('#address');
         var reason = $('#reason');
+        var comment = $('#comment');
 
         if(name.val() == '' || name.val() == null){
             e.preventDefault();
@@ -52,6 +53,13 @@ $(document).ready(function(){
             reason.addClass('input-required');
         }else{
             reason.removeClass('input-required');
-        }                                                        
+        }    
+        
+        if(comment.val() == '' || comment.val() == null){
+            e.preventDefault();
+            comment.addClass('input-required');
+        }else{
+            comment.removeClass('input-required');
+        }  
     }                    
 });  

@@ -69,7 +69,7 @@ class Data{
             "class" => "address d-none",
             "pattern" => "[a-zA-Z0-9_]",
             "placeholder" => "Domicilio"
-        ],
+        ]
     ];
 
     public static $contable = [
@@ -149,6 +149,9 @@ class Data{
     ];
 
     public static $new_buildings = [
+        [
+            "Palpa", "Palpa" , "2634", "Belgrano", "2024"
+        ],
         [
             "Voir", "Amenabar" , "2913", "Belgrano", "2023"
         ],

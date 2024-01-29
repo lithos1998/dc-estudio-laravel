@@ -1194,8 +1194,6 @@ textarea:-webkit-autofill:focus
     transform: scale(1.2);
 }
 
-
-
 .ribbon-wrapper {
     width: 85px;
     height: 120px;
@@ -1206,23 +1204,21 @@ textarea:-webkit-autofill:focus
 }
 
 .ribbon {
-  font: bold 20px sans-serif;
-  color: #333;
-  text-align: center;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform:    rotate(-45deg);
-  -ms-transform:     rotate(-45deg);
-  -o-transform:      rotate(-45deg);
-  position: relative;
-  padding: 7px 0;
-  top: 26px;
-  left: -128px;
-  width: 120px;
-  background-color: #eb3434;
-  color: #fff;
+    font: bold 20px sans-serif;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 26px;
+    left: -128px;
+    width: 120px;
+    background-color: #eb3434;
+    color: #fff;
 }
-
-
 /* administracion */
 
 /* certificaciones */
@@ -1541,13 +1537,13 @@ footer .footer-data{
 /* media query */
 @media screen and (max-width:1700px) {
     .ribbon{
-        left: -120px;
+        left: -130px;
     }
 }
 
 @media screen and (max-width:1700px) {
     .ribbon{
-        left: -105px;
+        left: -85px;
     }
 }
 
@@ -1571,6 +1567,7 @@ footer .footer-data{
     .ribbon{
         font: bold 18px sans-serif;
         top: 14px !important;
+        left: -75px !important;
     }
 }
 
@@ -1619,7 +1616,7 @@ footer .footer-data{
 
     .ribbon{
         top: 22px !important;
-        left: -90px !important;
+        left: -60px !important;
     }
 }
 
@@ -1671,7 +1668,8 @@ footer .footer-data{
 
     .ribbon{
         font-size: 15px !important;
-        left: -78px !important;
+        top: 12px !important;
+        left: -55px !important;
     }
 }
 
@@ -1792,8 +1790,8 @@ footer .footer-data{
     }
 
     .ribbon{
-        font-size: 14px !important;
-        left: -68px !important;
+        font-size: 12px !important;
+        left: -55px !important;
     }
 
     .building{
@@ -1940,7 +1938,8 @@ footer .footer-data{
     }
 
     .ribbon{
-        top: 16px !important;
+        top: 10px !important;
+        left: -50px !important;
     }
 
     .contable-img{
@@ -1950,7 +1949,7 @@ footer .footer-data{
 
 @media screen and (max-width:900px) {
     .ribbon{
-        left: -60px !important;
+        left: -46px !important;
     }
 
     .contact-div{
@@ -2075,7 +2074,7 @@ footer .footer-data{
 @media screen and (max-width:800px) {
     .ribbon{
         top: 12px !important;
-        left: -54px !important;
+        left: -35px !important;
     }
 
     .contact-text{
@@ -2186,8 +2185,21 @@ footer .footer-data{
 
 @media screen and (max-width:700px) {
     .ribbon{
-        font-size: 11px !important;
-        left: -42px !important;
+        top: 14px !important;
+        font-size: 16px !important;
+        left: -80px !important;
+    }
+
+    .buildings{
+        flex-wrap: wrap;
+    }
+
+    .building{
+        width: 40% !important;
+    }
+
+    .admin-title{
+        font-size: 42px !important;
     }
 
     .logo-institution p {

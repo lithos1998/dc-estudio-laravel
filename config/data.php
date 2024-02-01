@@ -28,7 +28,7 @@ class Data{
         "Adm. de consorcio" => "administracion",
         "Consultaria contable" => "contable",
         "Certificaciones" => "certificaciones",
-        "New airs" => "newairs",
+        // "New airs" => "newairs",
         // "Blogs" => "blogs"
     ];
 
@@ -150,7 +150,7 @@ class Data{
 
     public static $new_buildings = [
         [
-            "Palpa", "Palpa" , "2634", "Belgrano", "2024"
+            "Voir - Palpa I", "Palpa" , "2634", "Belgrano", "2024"
         ],
         [
             "Voir", "Amenabar" , "2913", "Belgrano", "2023"

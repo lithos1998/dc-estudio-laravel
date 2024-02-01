@@ -503,6 +503,7 @@ nav div{
     background-color: var(--main-blue) !important;
     border-bottom: solid;
     font-size: 20px;
+    font-family: var(--myriad-light);
 }
 
 #contact-form input::placeholder, #contact-form textarea::placeholder{
@@ -1214,7 +1215,7 @@ textarea:-webkit-autofill:focus
     position: relative;
     padding: 7px 0;
     top: 26px;
-    left: -128px;
+    left: -95px;
     width: 120px;
     background-color: #eb3434;
     color: #fff;

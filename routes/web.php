@@ -35,9 +35,9 @@ Route::get('/certificaciones', function () {
     return view('certificaciones');
 });
 
-Route::get('/newairs', function () {
-    return view('newairs');
-});
+// Route::get('/newairs', function () {
+//     return view('newairs');
+// });
 
 
 // // when site is in mode construccion

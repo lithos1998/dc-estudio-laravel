@@ -9,7 +9,6 @@ class Data{
         'marina',
         'consorcioabierto',
         'somos-hogar',
-        'energroup',
         'dakari',
         'owl',
         'ascensores'

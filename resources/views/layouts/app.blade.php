@@ -1,13 +1,3 @@
-@php
-    $construction = false;
-    $color = "#fcfcfc";
-
-    if(Route::current()->getName() == 'construccion'){
-        $construction = true;
-        $color = "#152b42";
-    }
-@endphp
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -15,14 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="assets/images/logo.png" >
 
         <title>DC Estudio</title>
     </head>
-    <body style="background-color: {{ $color }} !important">
+    <body style="background-color: #fcfcfc !important">
         <div class="go-up" id="goUp">
             <i class="fa-solid fa-arrow-up"></i>
         </div>
@@ -34,11 +21,9 @@
         </div>
 
 
-        @if ($construction == false)
-            @include('components.nav')            
-        @endif
+        @include('components.nav')            
+        
          
-
         @yield('content')
 
 

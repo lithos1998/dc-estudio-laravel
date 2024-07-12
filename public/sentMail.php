@@ -29,6 +29,7 @@ try {
 
         $to = 'info@dc.ar';
         $toPrueba = 'pruebas@dc.ar';
+        $toPrueba2 = 'carlosriveros1998@gmail.com';
         $subject = 'Consulta por sitio web';
 
         mail($to, $subject, utf8_decode($message), $header);
@@ -42,7 +43,7 @@ try {
 
         $user_msg = 'mail-ok';
     }else {
-         // not autorized
+        // not autorized
         header("Location:index.php");
         die();
     }

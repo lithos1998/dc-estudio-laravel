@@ -1,45 +1,23 @@
-@font-face{
-    font-family: 'myriad-black';
-    src: url(../assets/fonts/Myriad\ Pro\ Black.otf);
-}
-
-@font-face{
-    font-family: 'myriad-bold';
-    src: url(../assets/fonts/Myriad\ Pro\ Bold.ttf);
-}
-
-@font-face{
-    font-family: 'myriad-light';
-    src: url(../assets/fonts/Myriad\ Pro\ Light.otf);
-}
-
-@font-face{
-    font-family: 'myriad-regular';
-    src: url(../assets/fonts/Myriad\ Pro\ Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
     /* colors */
     --main-white : #fcfcfc;
-
     --main-blue : #152b42;
     --light-blue : #00a0d0;
     --aqua-blue : #00d0c2;
-
     /* fonts */
     --montserrat : 'Montserrat', sans-serif;
-    --myriad-black : 'myriad-black';
-    --myriad-bold  : 'myriad-bold';
-    --myriad-light : 'myriad-light';
-    --myriad-regular : 'myriad-regular';
+    --roboto : 'roboto';
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: var(--myriad-black);
+    font-family: var(--roboto);
+    font-weight: 600;
 }
 
 p{
-    font-family: var(--myriad-regular);
+    font-family: var(--roboto);
 }
 
 .d-column{
@@ -77,14 +55,15 @@ body{
     margin: 0em !important;
 }
 
-/* body div{
-    background-color: pink !important;
-} */
+a{
+    text-decoration: none !important;
+}
 
 .page-title{
     font-size: 38px;
     color: var(--main-blue);
-    font-family: var(--myriad-black);
+    font-family: var(--roboto);
+    font-weight: 600;
     margin-bottom: 0px !important;
 }
 
@@ -141,7 +120,6 @@ body{
     color:#128c7e;
 }
 
-
 /* more info */
 .further-info{
     display: flex;
@@ -165,7 +143,8 @@ body{
     cursor: pointer;
     transition: all .4s ease-in-out;
     text-align: center;
-    font-family: var(--myriad-bold);
+    font-family: var(--roboto);
+    font-weight: 500;
     text-decoration: none;
     box-shadow: 3px 4px 9px #00000052;
 }
@@ -174,7 +153,6 @@ body{
     background-color: var(--aqua-blue);
     color: var(--main-blue);
 }
-
 
 /* user message */
 .user-msg-div{
@@ -214,7 +192,7 @@ body{
 .user-msg-div h1{
     margin: 0px !important;
     color: var(--main-white);
-    font-family: var(--myriad-regular);
+    font-family: var(--roboto);
     text-align: center;
     font-size: 25px;
 }
@@ -245,7 +223,6 @@ nav div{
     height: 160px !important;
     position: absolute;
     z-index: 100;
-    /* transform: rotate(90deg); */
 }
 
 .logo-institution .contact-nav{
@@ -259,7 +236,7 @@ nav div{
     color: var(--main-blue);
     text-decoration: none !important;
     font-size: 20px;
-    font-family: var(--myriad-regular);
+    font-family: var(--roboto);
     margin: 0px 20px;
     text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.262);;
 }
@@ -298,7 +275,6 @@ nav div{
     font-size: 17px;
     font-family: var(--montserrat);
     margin: 0px 20px;
-    /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.762); */
 }
 
 .nav-bar{
@@ -327,9 +303,9 @@ nav div{
     text-decoration: none !important;
     font-size: 17px;
     font-family: var(--montserrat);
+    font-weight: 500 !;
     margin: 0px 20px;
     text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.562);
-    /* transition: all 0.4s ease-out; */
 }
 
 .nav-buttons-main:hover{
@@ -337,7 +313,6 @@ nav div{
     font-size: 18px !important;
     color: var(--aqua-blue) !important;
 }
-
 
 .nav-bar .nav-buttons a:last-child{
     margin-right: 0px !important;
@@ -362,8 +337,8 @@ nav div{
 .logo-buildings{
     width: 60px;
 }
-/* nav */
 
+/* nav */
 .img-home{
     width: 100% !important;
     background-image: url(../assets/images/parkcid.jpg);
@@ -386,7 +361,8 @@ nav div{
     margin-top: 0px !important;
     margin-bottom: 0px;
     font-style: italic;
-    font-family: var(--myriad-light);
+    font-family: var(--roboto);
+    font-weight: 300;
     text-shadow: 7px 7px 6px #000000;
 }
 
@@ -410,7 +386,6 @@ nav div{
 }
 
 .contact div{
-    width: 100%;
     display: flex;
     justify-content: center ;
     align-items: center;
@@ -424,17 +399,42 @@ nav div{
 
 .contact-div{
     height: 300px;
+    width: 100%;
 }
 
 .contact-div .contact-us{
     height: 100%;
 }
 
-.contact-us .contact-data p{
-    font-size: 30px;
-    margin: 10px 0px;
-    color: var(--main-white);
-    font-family: var(--myriad-regular);
+.contact-us .contact-data{
+    align-items: start;
+}
+
+.contact-us .contact-data div,
+.contact-us .contact-data div a{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    margin-right: 35px;
+}
+
+.contact-us .contact-data div p{
+    font-family: var(--roboto) !important;
+}
+
+.contact-us .contact-data div p,
+.contact-us .contact-data div div i,
+.contact-us .contact-data div a p,
+.contact-us .contact-data div a div i{
+    font-size: 30px !important;
+    margin: 14px 0px;
+    color: var(--main-white) !important;
 }
 
 .contact-data{
@@ -503,7 +503,8 @@ nav div{
     background-color: var(--main-blue) !important;
     border-bottom: solid;
     font-size: 20px;
-    font-family: var(--myriad-light);
+    font-family: var(--roboto);
+    font-weight: 300;
 }
 
 #contact-form input::placeholder, #contact-form textarea::placeholder{
@@ -539,7 +540,7 @@ textarea:-webkit-autofill:focus
     border-radius: 6px;
     height: 40px;
     border-color: var(--light-blue) !important;
-    font-family: var(--myriad-regular);
+    font-family: var(--roboto);
     font-size: 20px;
 }
 
@@ -547,7 +548,8 @@ textarea:-webkit-autofill:focus
     background-color: var(--main-white) !important;
     border-color: var(--main-white) !important;
     color: #152b42 !important;
-    font-family: var(--myriad-bold);
+    font-family: var(--roboto);
+    font-weight: 500;
 }
 
 .input-required{
@@ -645,7 +647,7 @@ textarea:-webkit-autofill:focus
 }
 
 .check-group .check h2{
-    font-family: var(--myriad-regular);
+    font-family: var(--roboto);
     font-size: 40px;
     color: var(--main-blue);
     margin: 10px;
@@ -672,7 +674,8 @@ textarea:-webkit-autofill:focus
     color: var(--main-blue);
     align-items: flex-end;
     text-align: start;
-    font-family: var(--myriad-light);
+    font-family: var(--roboto);
+    font-weight: 400;
 }
 
 .admin-presentation-data{
@@ -850,9 +853,7 @@ textarea:-webkit-autofill:focus
 }
 /* consorcio libre */
 
-
 /* pages */
-
 /* contable */
 .section-contable{
     display: flex;
@@ -893,7 +894,6 @@ textarea:-webkit-autofill:focus
 
 .div-contable{
     background-color: var(--main-blue);
-    /* transition: all .8s ease-in-out; */
 }
 
 .div-contable h3{
@@ -946,107 +946,6 @@ textarea:-webkit-autofill:focus
 
 /* contable */
 
-/* certificaciones */
-
-
-
-
-
-
-/* certificaciones */
-
-/* new airs */
-.new-airs-page{
-    margin-top: 50px;
-    width: 100%;
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: row;
-}
-
-.newairs-logo{
-    width: 300px;
-}
-
-.newairs-data{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.we-are .further-info{
-    margin-bottom: 20px !important;
-}
-
-.newairs-data .we-are p{
-    font-size: 22px;
-    text-align: center;
-}
-
-.newairs-data .we-are p span{
-    font-weight: 800;
-}
-
-.newairs-data .we-are p span a{
-    color: #00d0c2;
-}
-
-.newairs-data .we-are p span a:hover{
-    color: #152b42;
-    font-size: 25px;
-    transition: all .5s ease-in-out;
-}
-
-.newairs-services{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.newairs-services h2{
-    color: var(--main-blue);
-    font-size: 30px;
-    margin-bottom: 50px;
-}
-
-.newairs-services .services{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.newairs-services .services div{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 25px;
-}
-
-.newairs-icon{
-    color: #00d0c2 !important;
-}
-
-.newairs-services .services div h3{
-    font-size: 25px;
-    margin-top: 5px;
-    color: #00d0c2;
-    text-align: center;
-    font-family: var(--myriad-regular);
-}
-
-.newairs-services .services div i{
-    font-size: 100px;
-    color: #00d0c2;
-    text-shadow: 2px 3px 8px #00000055;
-}
-
-/* new airs */
-
 /* administracion */
 .administracion{
     display: flex;
@@ -1061,9 +960,6 @@ textarea:-webkit-autofill:focus
     flex-direction: row;
     justify-content: space-between;
 }
-
-
-
 
 .admin-images{
     width: 100%;
@@ -1082,7 +978,8 @@ textarea:-webkit-autofill:focus
     color: var(--main-blue);
     font-size: 40px;
     margin-bottom: 0px;
-    font-family: var(--myriad-bold);
+    font-family: var(--roboto);
+    font-weight: 500;
 }
 
 .our-clients .page-title{
@@ -1090,7 +987,6 @@ textarea:-webkit-autofill:focus
 }
 
 .clients-logos{
-    /* height: 100% !important; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1159,7 +1055,8 @@ textarea:-webkit-autofill:focus
     font-size: 40px;
     color: var(--main-blue);
     margin: 0px !important;
-    font-family: var(--myriad-light);
+    font-family: var(--roboto);
+    font-weight: 300;
 }
 
 .building h3{
@@ -1167,14 +1064,16 @@ textarea:-webkit-autofill:focus
     font-size: 30px;
     margin-bottom: 5px;
     color: var(--main-blue);
-    font-family: var(--myriad-bold);
+    font-family: var(--roboto);
+    font-weight: 500;
 }
 
 .building h4{
     margin-top: 0px;
     font-size: 24px;
     color: var(--main-blue);
-    font-family: var(--myriad-bold);
+    font-family: var(--roboto);
+    font-weight: 500;
     text-align: start;
 }
 
@@ -1209,7 +1108,7 @@ textarea:-webkit-autofill:focus
     color: #333;
     text-align: center;
     -webkit-transform: rotate(-45deg);
-    -moz-transform:    rotate(-45deg);
+    -moz-transform: rotate(-45deg);
     -ms-transform:     rotate(-45deg);
     -o-transform:      rotate(-45deg);
     position: relative;
@@ -1223,77 +1122,73 @@ textarea:-webkit-autofill:focus
 /* administracion */
 
 /* certificaciones */
-    .certificaciones-logos{        
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
-    }
+.certificaciones-logos{        
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
 
-    .certificaciones-logos img{        
-        width: 150px;
-    }
+.certificaciones-logos img{        
+    width: 150px;
+}
 
-    .certificaciones-logos i{        
-        font-size: 80px;
-        color: var(--main-blue);
-        margin: 0px 30px;
-    }
+.certificaciones-logos i{        
+    font-size: 80px;
+    color: var(--main-blue);
+    margin: 0px 30px;
+}
 
-    .certificaciones-presentacion{
-        margin-bottom: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .certificaciones-presentacion p{
-        font-size: 35px;
-        text-align: center;
-        color: var(--main-blue);
-        margin-bottom: 10px;
-    }
+.certificaciones-presentacion{
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .certificaciones-presentacion p span{
-        font-weight: 700;
-        color: var(--main-blue);
-    }
+.certificaciones-presentacion p{
+    font-size: 35px;
+    text-align: center;
+    color: var(--main-blue);
+    margin-bottom: 10px;
+}
 
-    .dovalle-services{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 40px;
-    }
+.certificaciones-presentacion p span{
+    font-weight: 700;
+    color: var(--main-blue);
+}
 
-    .dovalle-service{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0px 20px;
-        width:  250px;
-        height: 200px !important;
-    }
+.dovalle-services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 
-    .dovalle-service i{
-        font-size: 60px !important;
-        color: var(--main-blue);
-        text-shadow: 3px 4px 6px #00000051;
-    }
+.dovalle-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+    width:  250px;
+    height: 200px !important;
+}
 
-    .dovalle-service p{
-        font-size: 25px !important;
-        color: var(--main-blue);
-        text-align: center;
-    }
+.dovalle-service i{
+    font-size: 60px !important;
+    color: var(--main-blue);
+    text-shadow: 3px 4px 6px #00000051;
+}
 
+.dovalle-service p{
+    font-size: 25px !important;
+    color: var(--main-blue);
+    text-align: center;
+}
 /* certificaciones */
-
-
 /* pages */
-
 
 /* footer */
 footer{
@@ -1392,149 +1287,6 @@ footer .footer-data{
 /* footer */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* construccion */
-.construction_page{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.images_construction{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.images_construction div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.images_construction div h2{
-    font-family: var(--myriad-black);
-    color: var(--main-white);
-}
-
-.construction_page img{
-    width: 150px;
-    height: 150px !important;
-}
-
-.construction_page h1{
-    font-size: 50px !important;
-    font-size: var(--myriad-bold);
-    color: var(--main-white);
-    margin-top: 0px;
-}
-
-/* construction */
-
-
 /* media query */
 @media screen and (max-width:1700px) {
     .ribbon{
@@ -1618,6 +1370,13 @@ footer .footer-data{
     .ribbon{
         top: 22px !important;
         left: -60px !important;
+    }
+
+    .contact-us .contact-data div p,
+    .contact-us .contact-data div div i,
+    .contact-us .contact-data div a p,
+    .contact-us .contact-data div a div i{
+        font-size: 26px !important;
     }
 }
 
@@ -1946,6 +1705,13 @@ footer .footer-data{
     .contable-img{
         display: none !important;
     }
+
+    .contact-us .contact-data div p,
+    .contact-us .contact-data div div i,
+    .contact-us .contact-data div a p,
+    .contact-us .contact-data div a div i{
+        font-size: 22px !important;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -1964,12 +1730,16 @@ footer .footer-data{
 
     .contact-us{
         flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
         width: 80% !important;
         margin-top: 30px ;
     }
 
     .contact-us .contact-data{
         width: 70% !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .contact-us .contact-data p{
@@ -2301,7 +2071,7 @@ footer .footer-data{
 
     .contact-div div{
         padding: 0px !important;
-        width: 100% !important;
+        /* width: 100% !important; */
     }
 
     .contact-div .contact-us{
@@ -2336,6 +2106,18 @@ footer .footer-data{
 
     .dovalle-service p{
         font-size: 18px !important;
+    }
+
+    .contact-us .contact-data div p,
+    .contact-us .contact-data div div i,
+    .contact-us .contact-data div a p,
+    .contact-us .contact-data div a div i{
+        font-size: 20px !important;
+    }
+
+    .icon-container{
+        width: 12px !important;
+        margin-right: 15px !important;
     }
 }
 

@@ -8,10 +8,9 @@ class Data{
         'matafuegos',
         'marina',
         'consorcioabierto',
+        'ascensores',
         'somos-hogar',
-        'dakari',
-        'owl',
-        'ascensores'
+        'owl'
     ];  
 
     public static $newairs_services = [
@@ -188,5 +187,9 @@ class Data{
     public static $phone_number = '(+54) 9 11 2787-1148';
 
     public static $email = 'administracion@dc.ar';
+
+    public static $instagram = '@Estudio_Cociancih_DC';
+
+    public static $facebook = 'DC Estudio Cociancih' ;
 
 }

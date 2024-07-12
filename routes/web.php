@@ -34,19 +34,3 @@ Route::get('/blogs', function () {
 Route::get('/certificaciones', function () {
     return view('certificaciones');
 });
-
-// Route::get('/newairs', function () {
-//     return view('newairs');
-// });
-
-
-// // when site is in mode construccion
-// Route::get('/construccion', function () {
-//     return Response::view('construccion');
-// })->name('construccion');
-
-// Route::get('/', function () {
-//     return Response::view('construccion');
-// })->name('construccion');
-
-// -------------------------------------------

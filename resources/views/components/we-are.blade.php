@@ -2,7 +2,7 @@
     <p class="page-title">Quienes somos</p>
 
     <div class="logo-dc-admin">
-        <img class="logo-buildings" src="assets/images/logo.png" alt="">      
+        <img class="logo-buildings" src="assets/images/logo.webp" alt="logo">      
         <h1>DC | ESTUDIO COCIANCIH</h1>
     </div>
 

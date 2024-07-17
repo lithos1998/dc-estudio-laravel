@@ -12,7 +12,7 @@
         <div class="clients">
             @foreach ( Data::$clients as $addres)
                 <div class="client">
-                    <img src="/assets/images/logo.png">
+                    <img alt="Logo" src="/assets/images/logo.webp">
                     <h3>{{ $addres }}</h3>
                 </div>
             @endforeach
@@ -21,7 +21,7 @@
         <p class="page-title">Nuestros clientes</p>
         <div class="clients-logos">
             @foreach ( Data::$clients_logo as $image)
-                <img src="/assets/images/clients/{{ $image }}.png" alt="Logo de {{ $image }}">
+                <img src="/assets/images/clients/{{ $image }}.webp" alt="Logo de {{ $image }}">
             @endforeach
         </div>
     </div>

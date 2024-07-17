@@ -1,8 +1,8 @@
 <footer class="d-column">
     <div class="footer-data d-column">
         <div class="footer-logo w-100">
-            <a href="https://mail.hostinger.com/" target="parent">                
-                <img class="logo-buildings" src="assets/images/logo.png" alt="">      
+            <a href="https://mail.hostinger.com/" target="parent" aria-label="ir a mi mail hostinger">                
+                <img class="logo-buildings" src="assets/images/logo.webp" loading="lazy" alt="Logo">      
             </a>                    
             <div>
                 <p class="color-w">DC</p>
@@ -15,5 +15,5 @@
         </div>                                         
     </div>   
                 
-    <img src="assets/images/decoracion.png" alt="" class="deco-footer">
+    <img src="assets/images/decoracion.webp" loading="lazy" alt="Logo" class="deco-footer">
 </footer>

@@ -12,7 +12,7 @@
             
             @include('components.go-contact')
 
-            <img class="contable-img" src="/assets/images/contable.jpg">
+            <img class="contable-img" src="/assets/images/contable.webp" alt="Contadora">
         </div>
         
         <div class="contable-services">

@@ -5,7 +5,7 @@
                 <div class="ribbon">{{ $data[4] }}</div>
             </div>
             
-            <img class="admin-images" src="assets/images/buildings/{{ $data[1] }}.png" alt="Edificio de la calle {{ $data[1] }}">
+            <img class="admin-images" loading="lazy" src="assets/images/buildings/{{ $data[1] }}.webp" alt="Edificio de la calle {{ $data[1] }}">
         </div>
 
         <div>

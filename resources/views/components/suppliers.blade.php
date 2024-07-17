@@ -4,18 +4,18 @@
 
     <div class="our-suppliers-data">    
         <div class="consorcio-libre">
-            <img class="logo-consorcio" src="assets/images/suppliers/consorcioabierto.png" alt="">
+            <img class="logo-consorcio" src="assets/images/suppliers/consorcioabierto.webp" loading="lazy" alt="Logo consorcio abierto">
             <p class="d-none">Trabajamos en conjunto con consorcio abierto una plataforma diseñada específicamente para administraciones de edificios, con el objetivo de centralizar toda la información y asi estar conectados constantemente para encontrar las respuestas al instante</p>
 
             <div class="consorcio-data">
                 <div class="div-video-qr">
                     <div class="info-consorcio">                
                         <div class="video-consorcio">
-                            <iframe id="video-yt" src="https://www.youtube.com/embed/FanVUMp9H90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe id="video-yt" src="https://www.youtube.com/embed/FanVUMp9H90"  loading="lazy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div> 
                         
                         <div class="div-qr">
-                            <img src="assets/images/consorcio_abierto/qr.jpg" alt="">
+                            <img src="assets/images/consorcio_abierto/qr.webp" loading="lazy"alt="qr consorcio abierti">
                         </div>
                     </div>
                 </div> 
@@ -32,7 +32,7 @@
 
         <div class="suppliers">
             @foreach (Data::$suppliers as $logo)
-                <img src="assets/images/suppliers/{{ $logo }}.png" alt="Logo de {{ $logo }}">
+                <img src="assets/images/suppliers/{{ $logo }}.webp" loading="lazy" alt="Logo de {{ $logo }}">
             @endforeach
         </div>                 
     </div>

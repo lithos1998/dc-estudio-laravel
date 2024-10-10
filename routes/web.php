@@ -27,6 +27,11 @@ Route::get('/contable', function () {
     return view('contable');
 });
 
+Route::get('/comercioexterior', function () {
+    return view('comercio');
+});
+
+
 Route::get('/blogs', function () {
     return view('blogs');
 });

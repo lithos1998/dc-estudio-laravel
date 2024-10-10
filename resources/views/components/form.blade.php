@@ -39,12 +39,12 @@
             
             <div class="contact-us-form d-column container">            
                 <form action="sentMail.php" name="form-contact" method="post" class="w-100" id="contact-form">
-                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                    @csrf
 
                     @include('components.inputs')
                     
-                    <input type="submit" value="Enviar" class="w-100 sent-form">                                   
-                </form>                                   
+                    <input type="" value="Enviar" class="w-100 sent-form">                                   
+                </form>                                    
             </div>  
         </div>
     </div>

@@ -1,1 +1,2276 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200..700;1,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);.d-column,.d-row{display:flex!important}.page-title,h1,h2,h3,h4,h5,h6{font-family:var(--roboto);font-weight:600}.go-up i,.page-title{color:var(--main-blue)}.go-up,.wpp-me{position:fixed;z-index:999999;cursor:pointer}.user-msg-div h1,body{margin:0!important;background-color:#fcfcfc!important}.media-icons:hover,.social-media a svg:hover{fill:var(--aqua-blue)!important}:root{--main-white:#fcfcfc;--main-blue:#152b42;--light-blue:#00a0d0;--aqua-blue:#00d0c2;--montserrat:'Montserrat',sans-serif;--roboto:'roboto'}p{font-family:var(--roboto)}.d-column{flex-direction:column!important}.d-row{flex-direction:row!important}.w-50{width:50%!important}.w-100,nav{width:100%!important}.w-25{width:25%!important}.d-none{display:none!important;transition:.9s ease-in-out!important}.go-up,.user-msg-div,.wpp-me,nav,nav div{display:flex}.container{padding:0 90px!important}a{text-decoration:none!important}.page-title{font-size:38px}.go-up{background-color:#fcfcfc;width:60px;height:60px;border-radius:40px;bottom:160px;right:-100px;align-items:center;justify-content:center;box-shadow:10px 8px 27px rgba(0,0,0,.562);transition:.4s ease-in-out}.correct-msg,.further-info a:hover,.go-up:hover{background-color:var(--aqua-blue)}.go-up i{font-size:40px}.go-up:hover i{color:#fcfcfc}.wpp-me{bottom:60px;right:40px;align-items:center;justify-content:center}.wpp-me i{text-shadow:10px 8px 27px rgba(0,0,0,.562);font-size:65px;color:#25d366;transition:.3s ease-in-out}.further-info a,.user-msg-div h1{color:var(--main-white);font-family:var(--roboto);text-align:center}.wpp-me i:hover{color:#128c7e}.further-info{display:flex;flex-direction:column;align-items:center;margin-top:20px;margin-bottom:80px}.further-info p{font-size:35px}.further-info a{width:60%;height:50px;font-size:35px;background-color:var(--main-blue);border-radius:20px;cursor:pointer;transition:.4s ease-in-out;font-weight:500;text-decoration:none;box-shadow:3px 4px 9px #00000052}.further-info a:hover{color:var(--main-blue)}.user-msg-div{justify-content:center;align-items:center;width:60%;height:100px;margin:0 auto;border-bottom-left-radius:40px;border-bottom-right-radius:40px;position:absolute;top:-100px;animation-name:user_message;animation-duration:5s;left:15%;right:15%;z-index:99999}@keyframes user_message{0%,100%{top:-100px}25%,50%,75%{top:0}}.wrong-msg{background-color:rgba(255,0,0,.705)}.user-msg-div h1{font-size:25px}.contact-nav a,.fixed-nav-bar .nav-buttons a,.nav-bar .nav-buttons a{text-decoration:none!important;margin:0 20px}nav{flex-direction:row}.mobile-menu-nav,.nav-buttons-mobile{display:none}nav div{flex-direction:column;width:100%}.decoration{height:160px!important;position:absolute;z-index:100}.fixed-nav-bar,.nav-bar{height:60px;width:100%;display:flex}.logo-institution .contact-nav{display:flex;flex-direction:row;justify-content:right;align-items:center}.contact-nav a{color:var(--main-blue);font-size:20px;font-family:var(--roboto);text-shadow:4px 3px 6px rgba(0,0,0,.262)}.contact-nav a:hover{color:var(--light-blue)}.fixed-nav-bar .nav-buttons a,.logo-institution p{color:var(--main-blue);font-family:var(--montserrat)}.fixed-nav-bar{position:fixed;top:-60px;background:linear-gradient(to right ,var(--aqua-blue) ,var(--main-white) 35%);z-index:110!important;align-items:center;justify-content:right;flex-direction:row;box-shadow:0 8px 15px rgba(0,0,0,.658);transition:.4s ease-in-out!important}.fixed-nav-bar .nav-buttons,.nav-bar .nav-buttons{margin:auto 0;display:flex;align-items:center;flex-direction:row;justify-content:right;padding-right:30px!important}.fixed-nav-bar .nav-buttons a{font-size:17px}.nav-bar{background:linear-gradient(to right ,var(--aqua-blue) ,var(--main-blue) 35%);z-index:90;align-items:center;justify-content:right;flex-direction:row;box-shadow:0 8px 20px rgba(0,0,0,.658)}.nav-bar .nav-buttons a{color:var(--main-white);font-size:17px;font-family:var(--montserrat);font-weight:500!important;text-shadow:4px 2px 3px rgba(0,0,0,.562)}.contact-us p:first-child,.eslogan{margin-top:0!important}.nav-buttons-main:hover{transition:.4s ease-in-out;font-size:18px!important;color:var(--aqua-blue)!important}.nav-bar .nav-buttons a:last-child{margin-right:0!important}.logo-institution{width:100%;height:100px;display:flex;flex-direction:row;align-items:center;justify-content:right}.contact,.img-home{justify-content:center;display:flex}.logo-institution p{font-size:20px;margin-left:10px}.logo-buildings{width:60px}.img-home{height:calc(100vh - 160px);width:100%!important;background-image:url(../assets/images/parkcid.webp);background-repeat:no-repeat;background-size:cover}.eslogan{color:#fff;text-align:center;font-size:80px;max-height:100vh!important;display:flex;align-items:end;padding-bottom:60px;margin-bottom:0;font-style:italic;font-family:var(--roboto);font-weight:300;text-shadow:7px 7px 6px #000}.contact{padding:0 60px;margin:40px 0 90px;flex-direction:column;background:#364f69;background:linear-gradient(90deg,#364f69 7%,#152b42 46%)}.contact .page-title{text-align:center;width:100%;color:var(--main-white);margin-bottom:0!important}.contact div{display:flex;justify-content:center;align-items:center;flex-direction:row}.contact .contact-us{align-items:start;justify-content:start}.contact-div{height:300px;width:100%}.contact-div .contact-us{height:100%}.contact-us .contact-data{align-items:start}.contact-us .contact-data div,.contact-us .contact-data div a{display:flex;flex-direction:row;justify-content:start}.icon-container{display:flex;justify-content:center;width:20px;margin-right:35px}.contact-us .contact-data div p{font-family:var(--roboto)!important}.contact-us .contact-data div a div i,.contact-us .contact-data div a p,.contact-us .contact-data div div i,.contact-us .contact-data div p{font-size:30px!important;margin:14px 0;color:var(--main-white)!important}.contact-data{align-items:start!important}.contact-us-form{height:100%;justify-content:start!important}#contact-form{display:grid;column-gap:20px;row-gap:20px;grid-template-columns:1fr 1fr 1fr 1fr}#contact-form .name{grid-column-start:1;grid-column-end:3;grid-row:1}#contact-form .email{grid-column-start:3;grid-column-end:5;grid-row:1}#contact-form label{grid-column-start:1;grid-column-end:3;grid-row:2}#contact-form .sent-form{grid-column-start:1;grid-column-end:5;grid-row:4;transition:.3s ease-in-out}#contact-form .address{grid-column-start:3;grid-column-end:5;grid-row:2}#contact-form .comment{grid-column-start:1;grid-column-end:5;grid-row:3;resize:none;font-size:25px!important}#contact-form input,#contact-form select,#contact-form textarea{height:40px!important;border:none;color:#f0e9e9;background-color:var(--main-blue)!important;border-bottom:solid;font-size:20px;font-family:var(--roboto);font-weight:300}#contact-form input::placeholder,#contact-form textarea::placeholder{color:#f0e9e9}#contact-form input:focus,#contact-form select:focus,#contact-form textarea:focus{outline:0!important;border-color:#00d0c2}input:-webkit-autofill,input:-webkit-autofill:focus,input:-webkit-autofill:hover,select:-webkit-autofill,select:-webkit-autofill:focus,select:-webkit-autofill:hover,textarea:-webkit-autofill,textarea:-webkit-autofill:focus,textarea:-webkit-autofill:hover{border-bottom:4px solid #f0e9e9!important;-webkit-text-size-adjust:20px!important;-webkit-text-fill-color:#f0e9e9!important;-webkit-box-shadow:40px 0 0 30px #152b42 inset!important}#contact-form .sent-form{border:solid!important;background-color:var(--light-blue)!important;color:var(--main-white);border-radius:6px;height:40px;border-color:var(--light-blue)!important;font-family:var(--roboto);font-size:20px}#contact-form .sent-form:hover{background-color:var(--main-white)!important;border-color:var(--main-white)!important;color:#152b42!important;font-family:var(--roboto);font-weight:500}.input-required{border-color:red!important}.social-media{display:flex;flex-direction:row;justify-content:left!important;margin-top:20px}.social-media a:hover{font-size:40px;fill:var(--aqua-blue)}.social-media a svg{width:40px;height:40px}.social-media a svg:hover{width:45px;height:45px;transition:.2s ease-in-out}.media-icons{fill:var(--main-white)}.contact-text{text-align:center;color:var(--main-white);font-size:25px;margin:10px 50px 50px}.we-are{max-width:100%;display:flex;flex-direction:column;align-items:center}.we-are .page-title{width:100%;text-align:center;margin-bottom:30px!important}.title-span{font-weight:900}.check-group{display:flex;flex-direction:row;width:100%;justify-content:center;align-items:start;justify-content:space-evenly;margin-top:20px}.check-group .check{display:flex;flex-direction:row;align-items:center;justify-content:center}.check-group .check i{font-size:40px;color:var(--main-blue);margin-right:15px}.check-group .check h2{font-family:var(--roboto);font-size:40px;color:var(--main-blue);margin:10px}.logo-dc-admin{margin-top:30px;display:flex;flex-direction:row;align-items:center;margin-bottom:20px}.logo-dc-admin img{width:180px;margin-right:20px}.logo-dc-admin h1{display:flex;margin-bottom:0;margin-top:0;font-size:45px;color:var(--main-blue);align-items:flex-end;text-align:start;font-family:var(--roboto);font-weight:400}.consorcio-button,.div-contable h3{font-family:var(--montserrat);cursor:pointer}.admin-presentation-data{margin-top:60px;width:100%;display:flex;align-items:flex-end}.admin-presentation-data p{font-size:30px;text-align:center;margin:0!important}.our-suppliers{margin-top:10px;margin-bottom:70px;display:flex;flex-direction:column;width:100%}.our-clients .admin-title{color:var(--main-blue);text-shadow:4px 4px 7px #00000055;font-size:50px!important}.our-suppliers-data{width:100%;display:flex;flex-direction:row}.our-suppliers-data .consorcio-libre,.our-suppliers-data .suppliers{padding:0 20px}.page-title{width:100%;color:var(--main-blue);text-align:center;margin-bottom:30px!important}.consorcio-libre{width:50%;display:flex;flex-direction:column;align-items:center}.suppliers{width:50%;display:flex;flex-wrap:wrap;flex-direction:row;justify-content:center;align-items:center}.suppliers img{margin:20px 30px;max-width:200px!important;min-width:170px}.conosrcio-libre p{text-align:center;margin-bottom:20px;font-size:20px}.consorcio-data{display:flex;flex-direction:column;align-items:center;width:100%}.info-consorcio{display:flex;width:100%;flex-direction:row;justify-content:center;align-items:center;margin-bottom:40px}.div-qr-data,.section-contable .us-contable{flex-direction:column;display:flex}.logo-consorcio{width:500px;margin-bottom:60px}.div-qr{width:fit-content!important;padding:25px;background-color:var(--main-white);border-radius:20px;box-shadow:10px 8px 27px rgba(0,0,0,.562);cursor:pointer}.div-qr img{width:160px}.registrate-consorcio{color:var(--main-blue);font-size:25px!important;text-align:center;margin:0!important}.store-consorcio{color:var(--main-blue);font-size:25px;text-align:center}.store-consorcio span{font-weight:800!important;margin:0 8px}.video-consorcio{width:100%;display:flex;justify-content:center;align-items:center}#video-yt{width:80%;height:250px;box-shadow:9px 9px 25px rgba(0,0,0,.658);border-radius:20px!important}.div-video-qr{width:90%}.consorcio-button{display:flex;text-align:center;justify-content:center;align-items:center;width:80%;height:50px;font-size:30px;background-color:var(--light-blue);color:var(--main-white);border-radius:10px;text-decoration:none;transition:.4s ease-in-out;box-shadow:3px 5px 7px #00000079}.consorcio-button:hover,.div-contable{background-color:var(--main-blue)}.section-contable{display:flex;flex-direction:row}.section-contable .contable-services{width:50%;padding:0 30px}.section-contable .us-contable{align-items:center;width:50%;padding:0 30px}.section-contable .us-contable h3{text-align:center;font-weight:800;font-size:35px;color:var(--main-blue);margin-top:0!important}.section-contable .us-contable p{text-align:center;font-size:27px;color:var(--main-blue)}.us-contable p span{font-weight:800!important;font-size:23px}.div-contable h3{margin-bottom:5px;margin-top:0;padding-left:20px;padding-top:10px;padding-bottom:10px;font-weight:800;font-size:25px;color:#f0e9e9}.building h2,.our-clients h2{font-size:40px;font-family:var(--roboto)}.building h2,.clients .client h3,.clients .client i,.our-clients h2{color:var(--main-blue)}.div-contable h3 i{margin-right:10px}.div-contable div p{margin:30px 0;font-size:20px;color:#fcfcfc}.contable_radius{border-bottom-left-radius:40px;border-bottom-right-radius:40px;box-shadow:0 9px 18px rgba(0,0,0,.658)}.cont-list{margin-bottom:10px;padding:0 25px 20px 60px}.contable-img{width:100%!important;border-radius:20px;box-shadow:4px 6px 9px #00000065;transition:.5s ease-in-out}.contable-img:hover{filter:grayscale(80%)}.administracion{display:flex;flex-direction:column;max-width:100%}.admin-presentation{margin:70px 0;padding:0 10px;display:flex;flex-direction:row;justify-content:space-between}.admin-images{width:100%;box-shadow:5px 5px 14px rgba(0,0,0,.658)}.our-clients{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-top:40px}.our-clients h2{margin-bottom:0;font-weight:500}.our-clients .page-title{margin-bottom:0!important}.clients-logos{width:100%;display:flex;flex-direction:row;justify-content:center;align-items:center}.clients-logos img{width:20%!important;margin:0 50px;max-height:50%!important}.clients{margin-top:50px;width:100%;display:flex;flex-direction:row;justify-content:space-between}.building,.clients .client{flex-direction:column;display:flex}.clients .client{align-items:center;margin:0 30px}.clients .client img{width:120px}.clients .client i{font-size:70px}.clients .client h3{margin-top:10px;font-size:30px}.buildings{display:flex;flex-direction:row;justify-content:space-evenly}.building{margin:50px 30px;margin-top:10px!important;align-items:center;justify-content:flex-start}.building div{width:100%;display:flex;flex-direction:column}.building h2{margin:0!important;font-weight:300}.building h3,.building h4{font-family:var(--roboto);font-weight:500;color:var(--main-blue)}.building h3{margin-top:10px;font-size:30px;margin-bottom:5px}.building h4{margin-top:0;font-size:24px;text-align:start}.building-img{margin:50px auto;width:100%;height:100%;position:relative;z-index:90;overflow:hidden}.building-img .admin-images{transition:.5s}.admin-images:hover{transform:scale(1.2)}.ribbon-wrapper{width:85px;height:120px;overflow:hidden;position:absolute;top:-3px;left:-3px}.ribbon,footer{position:relative}.ribbon{font:bold 20px sans-serif;text-align:center;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);padding:7px 0;top:26px;left:-95px;width:120px;background-color:#eb3434;color:#fff}.certificaciones-logos{display:flex;flex-direction:row;justify-content:center;align-items:center;margin-top:40px}.certificaciones-logos img{width:150px}.certificaciones-logos i{font-size:80px;color:var(--main-blue);margin:0 30px}.certificaciones-presentacion{margin-bottom:120px;display:flex;flex-direction:column;align-items:center}.certificaciones-presentacion p{font-size:35px;text-align:center;color:var(--main-blue);margin-bottom:10px}.certificaciones-presentacion p span{font-weight:700;color:var(--main-blue)}.dovalle-services{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;margin-bottom:40px}.dovalle-service{display:flex;flex-direction:column;align-items:center;margin:0 20px;width:250px;height:200px!important}.dovalle-service i{font-size:60px!important;color:var(--main-blue);text-shadow:3px 4px 6px #00000051}.dovalle-service p{font-size:25px!important;color:var(--main-blue);text-align:center}.color-w,.footer-contact,.footer-logo p,.social-media a{color:var(--main-white)}footer{background:#334e6a;background:linear-gradient(180deg,#334e6a 5%,#142b42 46%);width:100%;height:200px;bottom:0}footer .footer-data{margin:20px 0;width:100%}.footer-logo{display:flex;flex-direction:row;align-items:center}.footer-logo a{margin-left:60px}.footer-logo div{margin:0 10px}.footer-logo img{width:110px}.footer-logo div p:first-child{font-size:50px;margin:0}.footer-logo div p:last-child{margin:0;font-size:30px;padding-left:2px}.footer-contact{justify-content:center}.footer-contact .social-media{justify-content:center!important;margin-top:0!important}.deco-footer{transform:scaleX(-1);-moz-transform:scaleX(-1);-webkit-transform:scaleX(-1);-o-transform:scaleX(-1);position:absolute;bottom:0;height:200px!important;right:0}.social-media{display:flex;flex-direction:row;justify-content:center}.social-media a{font-size:40px;margin-right:35px;transition:.2s ease-in-out}.social-media a:hover{color:var(--aqua-blue)}@media screen and (max-width:1700px){.ribbon{left:-85px}}@media screen and (max-width:1500px){.building-img{margin-bottom:30px!important}.building{margin:10px 30px!important}.page-title{margin:20px 0}.suppliers img{max-width:170px!important}.ribbon{font:bold 18px sans-serif;top:14px!important;left:-75px!important}}@media screen and (max-width:1400px){#contact-form input,#contact-form select{font-size:16px}#video-yt{width:90%;height:70%}.registrate-consorcio{font-size:25px!important}.div-qr img{width:170px}.admin-presentation-data{margin-top:15px}.admin-presentation-data p,.clients .client h3{font-size:25px}.building-img{margin-top:0}.clients{margin-top:5px}.suppliers img{max-width:150px;min-width:150px}.ribbon{top:22px!important;left:-60px!important}.contact-us .contact-data div a div i,.contact-us .contact-data div a p,.contact-us .contact-data div div i,.contact-us .contact-data div p{font-size:26px!important}}@media screen and (max-width:1300px){.eslogan{padding-bottom:40px;font-size:65px}.div-contable div p{font-size:16px}.section-contable .us-contable p{font-size:20px}.logo-dc-admin img{width:140px}.logo-dc-admin h1{font-size:40px}.clients .client h3{text-align:center}.info-consorcio{flex-direction:column}.video-consorcio{height:320px}.logo-consorcio{margin-bottom:0}.newairs-data .container{padding:0 60px!important}.certificaciones-presentacion p{font-size:30px}.ribbon{font-size:15px!important;top:12px!important;left:-55px!important}}@media screen and (max-width:1200px){.contact-us p{font-size:25px}.contact-us{width:40%!important}.contact-us-form{width:60%!important}.div-qr,.our-suppliers{margin-top:0}.contact{margin-bottom:30px}.video-consorcio{display:flex;align-items:baseline}.store-consorcio{font-size:18px!important}.building h3,.div-contable h3{font-size:20px}.section-contable .us-contable p{font-size:18px}.section-contable .contable-services{width:60%}.section-contable .us-contable{width:40%}.logo-dc-admin{margin:0!important}.building h2{font-size:32px}#video-yt{margin-top:40px;height:70%}.suppliers img{max-width:140px!important;min-width:140px!important;margin:10px 20px!important}.div-qr img{width:140px}.suppliers{align-items:self-start!important}.contact-us,.contact-us-form{padding:0!important}.go-up{width:50px;height:50px;bottom:140px}.further-info a,.further-info p,.go-up i{font-size:30px}.wpp-me i{font-size:55px}.certificaciones-presentacion p{font-size:26px!important}.certificaciones-presentacion{margin-bottom:80px!important}.ribbon{font-size:12px!important;left:-55px!important}.building{margin:10px 12px!important}}@media screen and (max-width:1024px){.consorcio-libre,.section-contable .contable-services,.section-contable .us-contable,.suppliers{width:100%;padding:0!important}.section-contable{flex-direction:column;max-width:100%!important;justify-content:center;align-items:center}.section-contable .us-contable p{margin:20px 60px!important}.further-info{margin-bottom:0!important}.contable-services{margin-top:60px}.contable-services div{width:60%}.div-contable{margin-left:auto!important;margin-right:auto!important}.nav-bar .nav-buttons a{font-size:15px}#contact-form input,#contact-form select{font-size:13px}.admin-presentation-data p,.clients .client h3,.contact-us .contact-data p,.newairs-data .we-are p{font-size:20px}.page-title{font-size:38px}.check-group .check h2,.check-group .check i{font-size:30px;margin-right:0!important}.building{margin:10px!important}.clients .client img{width:100px}.fixed-nav-bar .nav-buttons a{font-size:14px}.clients-logos{flex-wrap:wrap}.clients-logos img{margin-bottom:20px}.our-suppliers-data{flex-direction:column-reverse}.suppliers{align-items:center!important}.suppliers img{max-width:180px!important;min-width:180px!important}.consorcio-libre{margin-top:30px}.info-consorcio{flex-direction:row;margin-bottom:0!important}.video-consorcio{width:50%!important}.consorcio-button{width:60%;height:40px;font-size:25px}.newairs-data .container{padding:0 40px!important}.dovalle-service{width:200px!important}.container .further-info{margin-bottom:30px!important}.ribbon{top:10px!important;left:-50px!important}.contable-img{display:none!important}.contact-us .contact-data div a div i,.contact-us .contact-data div a p,.contact-us .contact-data div div i,.contact-us .contact-data div p{font-size:22px!important}}@media screen and (max-width:900px){.contact-us,.contact-us-form{width:80%!important}.ribbon{left:-46px!important}.contact-div{flex-direction:column-reverse!important;height:fit-content!important}.contact-us{flex-direction:row!important;justify-content:center!important;align-items:center!important;margin-top:30px}.contact-us .contact-data{width:70%!important;justify-content:center!important;align-items:center!important}.contact-text,.contact-us .contact-data p,.footer-logo div p:last-child{font-size:20px}.social-media{width:30%!important}.eslogan{font-size:55px}.logo-institution p{font-size:16px}.contact-nav a{font-size:18px}.nav-bar .nav-buttons a{font-size:14px!important}.logo-dc-admin img{width:120px}.logo-dc-admin h1{font-size:30px}.check-group .check h2,.check-group .check i{font-size:26px}.container{padding:0 60px!important}.clients .client h3{font-size:17px}.page-title{font-size:32px}.suppliers img{max-width:160px!important;min-width:160px!important;margin:30px 20px!important}.logo-consorcio{width:400px}#contact-form input{background-color:transparent!important}.contact-div .contact-us{margin-bottom:30px}.footer-logo img{width:90px}.footer-logo div p:first-child{font-size:40px}.footer-contact{align-items:center}.newairs-data .we-are p{margin-bottom:0}.further-info a{margin-top:20px;font-size:30px}.certificaciones-presentacion p{font-size:24px!important}}@media screen and (max-width:800px){.ribbon{top:12px!important;left:-35px!important}.contact-text{font-size:20px}.construction_page h1{font-size:35px!important}.social-media{display:none;width:40%!important}.contact-us .contact-data{width:60%!important}.contact-us .contact-data p{font-size:18px}.social-media a{font-size:30px}.footer-logo div p:first-child{font-size:40px}.footer-logo div p:last-child,.further-info a,.further-info p{font-size:25px}.nav-bar .nav-buttons a{font-size:14px;margin:0 15px}.logo-consorcio{width:400px}.contact-us{margin-bottom:15px}.admin-presentation-data p,.clients .client h3{font-size:17px}.clients .client{margin:0 15px}.clients-logos img{margin-bottom:35px}.suppliers img{max-width:140px;min-width:140px}.newairs-services .services div i{font-size:80px}.newairs-logo{width:250px}.newairs-services .services{width:100%}.dovalle-service{width:180px!important;height:180px!important}.dovalle-service p{font-size:20px!important}.further-info a{width:45%!important;height:40px;margin-top:0!important}.dovalle-services{margin-bottom:0!important}}@media screen and (max-width:700px){.ribbon{top:14px!important;font-size:16px!important;left:-80px!important}.buildings{flex-wrap:wrap}.building{width:40%!important}.admin-title{font-size:42px!important}.logo-institution p{margin-right:15px}.eslogan{font-size:42px}.consorcio-libre .container,.new-airs-page{flex-direction:column}.consorcio-libre .container div{width:100%}.video-consorcio{height:300px;align-items:center}.nav-buttons{display:none!important}.nav-buttons-mobile{display:flex;align-items:center;flex-direction:row;justify-content:right;padding-right:30px!important}.mobile-icon{color:#fcfcfc;font-size:30px}.mobile-menu-nav{position:absolute;top:160px;background:linear-gradient(to right ,var(--aqua-blue) ,var(--main-blue) 35%);align-items:flex-end;padding-bottom:40px;padding-top:20px;z-index:999;box-shadow:0 10px 5px rgba(0,0,0,.658)}.mobile-menu-nav a{color:var(--main-white);text-decoration:none!important;font-size:17px;font-family:var(--montserrat);margin:10px 20px;text-shadow:4px 2px 3px rgba(0,0,0,.562);transition:.4s ease-in-out}.contable-services div{width:75%}.check-group .check h2,.check-group .check i{font-size:22px}.logo-dc-admin img{width:100px}.logo-dc-admin h1{font-size:26px}.building h2{font-size:28px}.building h3{display:flex;flex-direction:column}.building h4{font-size:20px}#video-yt{height:55%}.contact-div div{padding:0!important}.contact-div .contact-us{flex-direction:column!important;align-items:center!important}.contact-div .contact-us div{justify-content:center!important;align-items:center!important}.social-media a{margin:0 10px!important}.newairs-data,.newairs-services{width:100%!important}.newairs-services .services{width:90%!important}.dovalle-service{width:110px!important}.dovalle-service p{font-size:18px!important}.contact-us .contact-data div a div i,.contact-us .contact-data div a p,.contact-us .contact-data div div i,.contact-us .contact-data div p{font-size:20px!important}.icon-container{width:12px!important;margin-right:15px!important}}@media screen and (max-width:600px){.ribbon{left:-68px!important}.certificaciones-presentacion p{font-size:21px!important}.logo-institution p{width:32%;margin-right:0!important}.logo-institution .contact-nav{margin-right:10px}.contact-nav a{margin:0 10px;font-size:17px!important}.deco-footer,footer{height:170px!important}.contact-text{font-size:16px;margin:20px 10px}.contact h2,.go-up i{font-size:30px}#video-yt{width:100%;margin-top:15px;height:75%}.footer-logo{margin-left:10px;width:0%!important}.go-up{width:50px;height:50px;border-radius:35px}.check-group .check h2{margin-left:4px}.clients-logos img{width:35%!important}.clients{flex-wrap:wrap;justify-content:center}.clients .client{width:40%;align-items:center!important;justify-content:center}.suppliers img{max-width:120px!important;min-width:120px!important;margin:10px 20px!important}.contact-div .contact-us,.info-consorcio{flex-direction:column!important}.logo-consorcio{width:350px}.video-consorcio{height:220px;width:70%!important;margin-bottom:20px}.div-qr{margin-bottom:25px}.footer-logo a{margin-left:0!important}.buildings{flex-wrap:wrap}.building{width:40%!important}}@media screen and (max-width:500px){#contact-form .address,#contact-form .comment,#contact-form .email,#contact-form .name,#contact-form label,#contact-form .sent-form{grid-column-start:1;grid-column-end:5}.img-home{background-position:center 10%}.section-contable .us-contable p{margin:18px 30px!important}.div-contable h3{font-size:17px}.contable-services{margin-top:15px}.cont-list{padding-left:25px}.contable-services div{width:82%}.section-contable .us-contable h3{font-size:30px;margin-bottom:20px}.section-contable .us-contable p{font-size:16px}.check-group .check h2,.check-group .check i,.contact-us .contact-data p,.footer-logo div p:last-child{font-size:20px}#contact-form .name{grid-row:1}#contact-form .email{grid-row:2}#contact-form label{grid-row:3}#contact-form .address{grid-row:4}#contact-form .comment{grid-row:5;font-size:20px!important}#contact-form .sent-form{grid-row:6}.contact-us{flex-direction:column!important}.contact-us .contact-data,.social-media{width:100%!important;align-items:center!important}.social-media{margin-bottom:20px;justify-content:center!important;margin-top:25px!important}.footer-logo{margin-left:10px!important}.eslogan{font-size:35px}.registrate-consorcio{font-size:20px!important}.store-consorcio{font-size:14px!important}.container{padding:0 20px!important}.logo-consorcio{width:300px}#contact-link,#us-link{display:none!important}.consorcio-button{width:70%!important;font-size:20px}.further-info{margin-bottom:20px!important}.logo-dc-admin{width:60%}.logo-dc-admin h1{width:30%}.admin-presentation-data p{font-size:19px}.check-group{flex-direction:column;align-items:center}.social-media a{margin:0 10px!important}.contact{padding:0 40px}.logo-institution p{margin-right:10px!important}.further-info a,.further-info p{font-size:20px!important;text-align:center}.further-info a{height:35px!important}}@media screen and (max-width:450px){.contable-services div{width:92%}.consorcio-button{width:80%!important;font-size:18px!important}.ribbon{left:-40px!important}}
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200..700;1,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
+.d-column,
+.d-row {
+    display: flex !important
+}
+
+.page-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--roboto);
+    font-weight: 600
+}
+
+.go-up i,
+.page-title {
+    color: var(--main-blue)
+}
+
+.go-up,
+.wpp-me {
+    position: fixed;
+    z-index: 999999;
+    cursor: pointer
+}
+
+.user-msg-div h1,
+body {
+    margin: 0 !important;
+    background-color: #fcfcfc !important
+}
+
+.media-icons:hover,
+.social-media a svg:hover {
+    fill: var(--aqua-blue) !important
+}
+
+:root {
+    --main-white: #fcfcfc;
+    --main-blue: #152b42;
+    --light-blue: #00a0d0;
+    --aqua-blue: #00d0c2;
+    --montserrat: 'Montserrat', sans-serif;
+    --roboto: 'roboto'
+}
+
+p {
+    font-family: var(--roboto)
+}
+
+.d-column {
+    flex-direction: column !important
+}
+
+.d-row {
+    flex-direction: row !important
+}
+
+.w-50 {
+    width: 50% !important
+}
+
+.w-100,
+nav {
+    width: 100% !important
+}
+
+.w-25 {
+    width: 25% !important
+}
+
+.d-none {
+    display: none !important;
+    transition: .9s ease-in-out !important
+}
+
+.go-up,
+.user-msg-div,
+.wpp-me,
+nav,
+nav div {
+    display: flex
+}
+
+.container {
+    padding: 0 90px !important
+}
+
+a {
+    text-decoration: none !important
+}
+
+.page-title {
+    font-size: 38px
+}
+
+.go-up {
+    background-color: #fcfcfc;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    bottom: 160px;
+    right: -100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 8px 27px rgba(0, 0, 0, .562);
+    transition: .4s ease-in-out
+}
+
+.correct-msg,
+.further-info a:hover,
+.go-up:hover {
+    background-color: var(--aqua-blue)
+}
+
+.go-up i {
+    font-size: 40px
+}
+
+.go-up:hover i {
+    color: #fcfcfc
+}
+
+.wpp-me {
+    bottom: 60px;
+    right: 40px;
+    align-items: center;
+    justify-content: center
+}
+
+.wpp-me i {
+    text-shadow: 10px 8px 27px rgba(0, 0, 0, .562);
+    font-size: 65px;
+    color: #25d366;
+    transition: .3s ease-in-out
+}
+
+.further-info a,
+.user-msg-div h1 {
+    color: var(--main-white);
+    font-family: var(--roboto);
+    text-align: center
+}
+
+.wpp-me i:hover {
+    color: #128c7e
+}
+
+.further-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 80px
+}
+
+.further-info p {
+    font-size: 35px
+}
+
+.further-info a {
+    width: 60%;
+    height: 50px;
+    font-size: 35px;
+    background-color: var(--main-blue);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 3px 4px 9px #00000052
+}
+
+.further-info a:hover {
+    color: var(--main-blue)
+}
+
+.user-msg-div {
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: absolute;
+    top: -100px;
+    animation-name: user_message;
+    animation-duration: 5s;
+    left: 15%;
+    right: 15%;
+    z-index: 99999
+}
+
+@keyframes user_message {
+    0%,
+    100% {
+        top: -100px
+    }
+    25%,
+    50%,
+    75% {
+        top: 0
+    }
+}
+
+.wrong-msg {
+    background-color: rgba(255, 0, 0, .705)
+}
+
+.user-msg-div h1 {
+    font-size: 25px
+}
+
+.contact-nav a,
+.fixed-nav-bar .nav-buttons a,
+.nav-bar .nav-buttons a {
+    text-decoration: none !important;
+    margin: 0 20px
+}
+
+nav {
+    flex-direction: row
+}
+
+.mobile-menu-nav,
+.nav-buttons-mobile {
+    display: none
+}
+
+nav div {
+    flex-direction: column;
+    width: 100%
+}
+
+.decoration {
+    height: 160px !important;
+    position: absolute;
+    z-index: 100
+}
+
+.fixed-nav-bar,
+.nav-bar {
+    height: 60px;
+    width: 100%;
+    display: flex
+}
+
+.logo-institution .contact-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center
+}
+
+.contact-nav a {
+    color: var(--main-blue);
+    font-size: 20px;
+    font-family: var(--roboto);
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, .262)
+}
+
+.contact-nav a:hover {
+    color: var(--light-blue)
+}
+
+.fixed-nav-bar .nav-buttons a,
+.logo-institution p {
+    color: var(--main-blue);
+    font-family: var(--montserrat)
+}
+
+.fixed-nav-bar {
+    position: fixed;
+    top: -60px;
+    background: linear-gradient(to right, var(--aqua-blue), var(--main-white) 35%);
+    z-index: 110 !important;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .658);
+    transition: .4s ease-in-out !important
+}
+
+.fixed-nav-bar .nav-buttons,
+.nav-bar .nav-buttons {
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 30px !important
+}
+
+.fixed-nav-bar .nav-buttons a {
+    font-size: 17px
+}
+
+.nav-bar {
+    background: linear-gradient(to right, var(--aqua-blue), var(--main-blue) 35%);
+    z-index: 90;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .658)
+}
+
+.nav-bar .nav-buttons a {
+    color: var(--main-white);
+    font-size: 17px;
+    font-family: var(--montserrat);
+    font-weight: 500 !important;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, .562)
+}
+
+.contact-us p:first-child,
+.eslogan {
+    margin-top: 0 !important
+}
+
+.nav-buttons-main:hover {
+    transition: .4s ease-in-out;
+    font-size: 18px !important;
+    color: var(--aqua-blue) !important
+}
+
+.nav-bar .nav-buttons a:last-child {
+    margin-right: 0 !important
+}
+
+.logo-institution {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right
+}
+
+.contact,
+.img-home {
+    justify-content: center;
+    display: flex
+}
+
+.logo-institution p {
+    font-size: 20px;
+    margin-left: 10px
+}
+
+.logo-buildings {
+    width: 60px
+}
+
+.img-home {
+    height: calc(100vh - 160px);
+    width: 100% !important;
+    background-image: url(../assets/images/parkcid.webp);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.eslogan {
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    max-height: 100vh !important;
+    display: flex;
+    align-items: end;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+    font-style: italic;
+    font-family: var(--roboto);
+    font-weight: 300;
+    text-shadow: 7px 7px 6px #000
+}
+
+.contact {
+    padding: 0 60px;
+    margin: 40px 0 90px;
+    flex-direction: column;
+    background: #364f69;
+    background: linear-gradient(90deg, #364f69 7%, #152b42 46%)
+}
+
+.contact .page-title {
+    text-align: center;
+    width: 100%;
+    color: var(--main-white);
+    margin-bottom: 0 !important
+}
+
+.contact div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row
+}
+
+.contact .contact-us {
+    align-items: start;
+    justify-content: start
+}
+
+.contact-div {
+    height: 300px;
+    width: 100%
+}
+
+.contact-div .contact-us {
+    height: 100%
+}
+
+.contact-us .contact-data {
+    align-items: start
+}
+
+.contact-us .contact-data div,
+.contact-us .contact-data div a {
+    display: flex;
+    flex-direction: row;
+    justify-content: start
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    margin-right: 35px
+}
+
+.contact-us .contact-data div p {
+    font-family: var(--roboto) !important
+}
+
+.contact-us .contact-data div a div i,
+.contact-us .contact-data div a p,
+.contact-us .contact-data div div i,
+.contact-us .contact-data div p {
+    font-size: 30px !important;
+    margin: 14px 0;
+    color: var(--main-white) !important
+}
+
+.contact-data {
+    align-items: start !important
+}
+
+.contact-us-form {
+    height: 100%;
+    justify-content: start !important
+}
+
+#contact-form {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+#contact-form .name {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1
+}
+
+#contact-form .email {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 1
+}
+
+#contact-form label {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2
+}
+
+#contact-form .sent-form {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 4;
+    transition: .3s ease-in-out
+}
+
+#contact-form .address {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 2
+}
+
+#contact-form .comment {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 3;
+    resize: none;
+    font-size: 25px !important
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+    height: 40px !important;
+    border: none;
+    color: #f0e9e9;
+    background-color: var(--main-blue) !important;
+    border-bottom: solid;
+    font-size: 20px;
+    font-family: var(--roboto);
+    font-weight: 300
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #f0e9e9
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    outline: 0 !important;
+    border-color: #00d0c2
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+select:-webkit-autofill,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:hover,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:hover {
+    border-bottom: 4px solid #f0e9e9 !important;
+    -webkit-text-size-adjust: 20px !important;
+    -webkit-text-fill-color: #f0e9e9 !important;
+    -webkit-box-shadow: 40px 0 0 30px #152b42 inset !important
+}
+
+#contact-form .sent-form {
+    border: solid !important;
+    background-color: var(--light-blue) !important;
+    color: var(--main-white);
+    border-radius: 6px;
+    height: 40px;
+    border-color: var(--light-blue) !important;
+    font-family: var(--roboto);
+    font-size: 20px
+}
+
+#contact-form .sent-form:hover {
+    background-color: var(--main-white) !important;
+    border-color: var(--main-white) !important;
+    color: #152b42 !important;
+    font-family: var(--roboto);
+    font-weight: 500
+}
+
+.input-required {
+    border-color: red !important
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: left !important;
+    margin-top: 20px
+}
+
+.social-media a:hover {
+    font-size: 40px;
+    fill: var(--aqua-blue)
+}
+
+.social-media a svg {
+    width: 40px;
+    height: 40px
+}
+
+.social-media a svg:hover {
+    width: 45px;
+    height: 45px;
+    transition: .2s ease-in-out
+}
+
+.media-icons {
+    fill: var(--main-white)
+}
+
+.contact-text {
+    text-align: center;
+    color: var(--main-white);
+    font-size: 25px;
+    margin: 10px 50px 50px
+}
+
+.we-are {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.we-are .page-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px !important
+}
+
+.title-span {
+    font-weight: 900
+}
+
+.check-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-top: 20px
+}
+
+.check-group .check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.check-group .check i {
+    font-size: 40px;
+    color: var(--main-blue);
+    margin-right: 15px
+}
+
+.check-group .check h2 {
+    font-family: var(--roboto);
+    font-size: 40px;
+    color: var(--main-blue);
+    margin: 10px
+}
+
+.logo-dc-admin {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.logo-dc-admin img {
+    width: 180px;
+    margin-right: 20px
+}
+
+.logo-dc-admin h1 {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 45px;
+    color: var(--main-blue);
+    align-items: flex-end;
+    text-align: start;
+    font-family: var(--roboto);
+    font-weight: 400
+}
+
+.consorcio-button,
+.div-contable h3 {
+    font-family: var(--montserrat);
+    cursor: pointer
+}
+
+.admin-presentation-data {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end
+}
+
+.admin-presentation-data p {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 !important
+}
+
+.our-suppliers {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.our-clients .admin-title {
+    color: var(--main-blue);
+    text-shadow: 4px 4px 7px #00000055;
+    font-size: 50px !important
+}
+
+.our-suppliers-data {
+    width: 100%;
+    display: flex;
+    flex-direction: row
+}
+
+.our-suppliers-data .consorcio-libre,
+.our-suppliers-data .suppliers {
+    padding: 0 20px
+}
+
+.page-title {
+    width: 100%;
+    color: var(--main-blue);
+    text-align: center;
+    margin-bottom: 30px !important
+}
+
+.consorcio-libre {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.suppliers {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.suppliers img {
+    margin: 20px 30px;
+    max-width: 200px !important;
+    min-width: 170px
+}
+
+.conosrcio-libre p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px
+}
+
+.consorcio-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%
+}
+
+.info-consorcio {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px
+}
+
+.div-qr-data,
+.section-contable .us-contable {
+    flex-direction: column;
+    display: flex
+}
+
+.logo-consorcio {
+    width: 500px;
+    margin-bottom: 60px
+}
+
+.div-qr {
+    width: fit-content !important;
+    padding: 25px;
+    background-color: var(--main-white);
+    border-radius: 20px;
+    box-shadow: 10px 8px 27px rgba(0, 0, 0, .562);
+    cursor: pointer
+}
+
+.div-qr img {
+    width: 160px
+}
+
+.registrate-consorcio {
+    color: var(--main-blue);
+    font-size: 25px !important;
+    text-align: center;
+    margin: 0 !important
+}
+
+.store-consorcio {
+    color: var(--main-blue);
+    font-size: 25px;
+    text-align: center
+}
+
+.store-consorcio span {
+    font-weight: 800 !important;
+    margin: 0 8px
+}
+
+.video-consorcio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#video-yt {
+    width: 80%;
+    height: 250px;
+    box-shadow: 9px 9px 25px rgba(0, 0, 0, .658);
+    border-radius: 20px !important
+}
+
+.div-video-qr {
+    width: 90%
+}
+
+.consorcio-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+    background-color: var(--light-blue);
+    color: var(--main-white);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .4s ease-in-out;
+    box-shadow: 3px 5px 7px #00000079
+}
+
+.consorcio-button:hover,
+.div-contable {
+    background-color: var(--main-blue)
+}
+
+.section-contable {
+    display: flex;
+    flex-direction: row
+}
+
+.section-contable .contable-services {
+    width: 50%;
+    padding: 0 30px
+}
+
+.section-contable .us-contable {
+    align-items: center;
+    width: 50%;
+    padding: 0 30px
+}
+
+.section-contable .us-contable h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    color: var(--main-blue);
+    margin-top: 0 !important
+}
+
+.section-contable .us-contable p {
+    text-align: center;
+    font-size: 27px;
+    color: var(--main-blue)
+}
+
+.us-contable p span {
+    font-weight: 800 !important;
+    font-size: 23px
+}
+
+.div-contable h3 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-size: 25px;
+    color: #f0e9e9
+}
+
+.building h2,
+.our-clients h2 {
+    font-size: 40px;
+    font-family: var(--roboto)
+}
+
+.building h2,
+.clients .client h3,
+.clients .client i,
+.our-clients h2 {
+    color: var(--main-blue)
+}
+
+.div-contable h3 i {
+    margin-right: 10px
+}
+
+.div-contable div p {
+    margin: 30px 0;
+    font-size: 20px;
+    color: #fcfcfc
+}
+
+.contable_radius {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 9px 18px rgba(0, 0, 0, .658)
+}
+
+.cont-list {
+    margin-bottom: 10px;
+    padding: 0 25px 20px 60px
+}
+
+.contable-img {
+    width: 100% !important;
+    border-radius: 20px;
+    box-shadow: 4px 6px 9px #00000065;
+    transition: .5s ease-in-out
+}
+
+.contable-img:hover {
+    filter: grayscale(80%)
+}
+
+.administracion {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%
+}
+
+.admin-presentation {
+    margin: 70px 0;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.admin-images {
+    width: 100%;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, .658)
+}
+
+.our-clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px
+}
+
+.our-clients h2 {
+    margin-bottom: 0;
+    font-weight: 500
+}
+
+.our-clients .page-title {
+    margin-bottom: 0 !important
+}
+
+.clients-logos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.clients-logos img {
+    width: 20% !important;
+    margin: 0 50px;
+    max-height: 50% !important
+}
+
+.clients {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.building,
+.clients .client {
+    flex-direction: column;
+    display: flex
+}
+
+.clients .client {
+    align-items: center;
+    margin: 0 30px
+}
+
+.clients .client img {
+    width: 120px
+}
+
+.clients .client i {
+    font-size: 70px
+}
+
+.clients .client h3 {
+    margin-top: 10px;
+    font-size: 30px
+}
+
+.buildings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.building {
+    margin: 50px 30px;
+    margin-top: 10px !important;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.building div {
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.building h2 {
+    margin: 0 !important;
+    font-weight: 300
+}
+
+.building h3,
+.building h4 {
+    font-family: var(--roboto);
+    font-weight: 500;
+    color: var(--main-blue)
+}
+
+.building h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 5px
+}
+
+.building h4 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: start
+}
+
+.building-img {
+    margin: 50px auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 90;
+    overflow: hidden
+}
+
+.building-img .admin-images {
+    transition: .5s
+}
+
+.admin-images:hover {
+    transform: scale(1.2)
+}
+
+.ribbon-wrapper {
+    width: 85px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    top: -3px;
+    left: -3px
+}
+
+.ribbon,
+footer {
+    position: relative
+}
+
+.developed-by {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.developed-by span {
+    font-size: 20px;
+    font-family: var(--roboto);
+    color: #fff;
+}
+
+.developed-by span a {
+    color: #fff
+}
+
+.ribbon {
+    font: bold 20px sans-serif;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    padding: 7px 0;
+    top: 26px;
+    left: -95px;
+    width: 120px;
+    background-color: #eb3434;
+    color: #fff
+}
+
+.certificaciones-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px
+}
+
+.certificaciones-logos img {
+    width: 150px
+}
+
+.certificaciones-logos i {
+    font-size: 80px;
+    color: var(--main-blue);
+    margin: 0 30px
+}
+
+.certificaciones-presentacion {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.certificaciones-presentacion p {
+    font-size: 35px;
+    text-align: center;
+    color: var(--main-blue);
+    margin-bottom: 10px
+}
+
+.certificaciones-presentacion p span {
+    font-weight: 700;
+    color: var(--main-blue)
+}
+
+.dovalle-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px
+}
+
+.dovalle-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    width: 250px;
+    height: 200px !important
+}
+
+.dovalle-service i {
+    font-size: 60px !important;
+    color: var(--main-blue);
+    text-shadow: 3px 4px 6px #00000051
+}
+
+.dovalle-service p {
+    font-size: 25px !important;
+    color: var(--main-blue);
+    text-align: center
+}
+
+.color-w,
+.footer-contact,
+.footer-logo p,
+.social-media a {
+    color: var(--main-white)
+}
+
+footer {
+    background: #334e6a;
+    background: linear-gradient(180deg, #334e6a 5%, #142b42 46%);
+    width: 100%;
+    height: 200px;
+    bottom: 0
+}
+
+footer .footer-data {
+    margin: 20px 0;
+    width: 100%
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.footer-logo a {
+    margin-left: 60px
+}
+
+.footer-logo div {
+    margin: 0 10px
+}
+
+.footer-logo img {
+    width: 110px
+}
+
+.footer-logo div p:first-child {
+    font-size: 50px;
+    margin: 0
+}
+
+.footer-logo div p:last-child {
+    margin: 0;
+    font-size: 30px;
+    padding-left: 2px
+}
+
+.footer-contact {
+    justify-content: center
+}
+
+.footer-contact .social-media {
+    justify-content: center !important;
+    margin-top: 0 !important
+}
+
+.deco-footer {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    position: absolute;
+    bottom: 0;
+    height: 200px !important;
+    right: 0
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.social-media a {
+    font-size: 40px;
+    margin-right: 35px;
+    transition: .2s ease-in-out
+}
+
+.social-media a:hover {
+    color: var(--aqua-blue)
+}
+
+
+/* comercio exterior */
+.comercio-presentacion{
+    font-size: 30px; 
+    text-align: center;
+    color: var(--main-blue);
+}
+
+.comercio-presentacion span{
+    font-weight: 700;
+    color: var(--main-blue);
+}
+
+.comercio h2{
+    text-align: center;
+    color: var(--main-blue);
+    text-shadow: 4px 4px 7px #00000055;
+    font-size: 50px !important
+}
+
+.importacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+
+.importacion-info{
+    width: 60%;
+}
+
+.importacion-img{
+    width: 30%;
+}
+
+.importacion-img div{
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/images/comercio.webp);
+    box-shadow: 4px 5px 15px #000000c2;
+    border-radius: 20px;
+}
+
+.importacion-img .impor-img{
+    background-image: url(../assets/images/comercio.webp);
+}
+
+.importacion-img .expor-img{
+    background-image: url(../assets/images/exportacion.webp);
+}
+
+.importacion-img .gestion-img{
+    background-image: url(../assets/images/gestiones.webp);
+}
+
+.comercio-ul li{
+    list-style:disc;
+    font-size: 24px;
+    color: var(--main-blue);
+    font-family: var(--roboto);
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.links-comercio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.terminales ul li{
+    margin-bottom: 25px;
+}
+
+.terminales ul li a{
+    color: var(--main-blue) !important;
+    font-size: 28px;
+    font-family: var(--roboto);
+    font-weight: 400;
+    transition: all .4s ease-in-out;
+}
+
+/* comercio exterior */
+
+@media screen and (max-width:1700px) {
+    .ribbon {
+        left: -85px
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .building-img {
+        margin-bottom: 30px !important
+    }
+    .building {
+        margin: 10px 30px !important
+    }
+    .page-title {
+        margin: 20px 0
+    }
+    .suppliers img {
+        max-width: 170px !important
+    }
+    .ribbon {
+        font: bold 18px sans-serif;
+        top: 14px !important;
+        left: -75px !important
+    }
+}
+
+@media screen and (max-width:1400px) {
+    #contact-form input,
+    #contact-form select {
+        font-size: 16px
+    }
+    #video-yt {
+        width: 90%;
+        height: 70%
+    }
+    .registrate-consorcio {
+        font-size: 25px !important
+    }
+    .div-qr img {
+        width: 170px
+    }
+    .admin-presentation-data {
+        margin-top: 15px
+    }
+    .admin-presentation-data p,
+    .clients .client h3 {
+        font-size: 25px
+    }
+    .building-img {
+        margin-top: 0
+    }
+    .clients {
+        margin-top: 5px
+    }
+    .suppliers img {
+        max-width: 150px;
+        min-width: 150px
+    }
+    .ribbon {
+        top: 22px !important;
+        left: -60px !important
+    }
+    .contact-us .contact-data div a div i,
+    .contact-us .contact-data div a p,
+    .contact-us .contact-data div div i,
+    .contact-us .contact-data div p {
+        font-size: 26px !important
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .eslogan {
+        padding-bottom: 40px;
+        font-size: 65px
+    }
+    .div-contable div p {
+        font-size: 16px
+    }
+    .section-contable .us-contable p {
+        font-size: 20px
+    }
+    .logo-dc-admin img {
+        width: 140px
+    }
+    .logo-dc-admin h1 {
+        font-size: 40px
+    }
+    .clients .client h3 {
+        text-align: center
+    }
+    .info-consorcio {
+        flex-direction: column
+    }
+    .video-consorcio {
+        height: 320px
+    }
+    .logo-consorcio {
+        margin-bottom: 0
+    }
+    .newairs-data .container {
+        padding: 0 60px !important
+    }
+    .certificaciones-presentacion p {
+        font-size: 30px
+    }
+    .ribbon {
+        font-size: 15px !important;
+        top: 12px !important;
+        left: -55px !important
+    }
+    .comercio-presentacion{
+        font-size: 26px;
+    }
+    .comercio-ul li{
+        font-size: 22px;
+    }
+    .terminales ul li a{
+        font-size: 22px;
+    }
+    .terminales .page-title{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .contact-us p {
+        font-size: 25px
+    }
+    .contact-us {
+        width: 40% !important
+    }
+    .contact-us-form {
+        width: 60% !important
+    }
+    .div-qr,
+    .our-suppliers {
+        margin-top: 0
+    }
+    .contact {
+        margin-bottom: 30px
+    }
+    .video-consorcio {
+        display: flex;
+        align-items: baseline
+    }
+    .store-consorcio {
+        font-size: 18px !important
+    }
+    .building h3,
+    .div-contable h3 {
+        font-size: 20px
+    }
+    .section-contable .us-contable p {
+        font-size: 18px
+    }
+    .section-contable .contable-services {
+        width: 60%
+    }
+    .section-contable .us-contable {
+        width: 40%
+    }
+    .logo-dc-admin {
+        margin: 0 !important
+    }
+    .building h2 {
+        font-size: 32px
+    }
+    #video-yt {
+        margin-top: 40px;
+        height: 70%
+    }
+    .suppliers img {
+        max-width: 140px !important;
+        min-width: 140px !important;
+        margin: 10px 20px !important
+    }
+    .div-qr img {
+        width: 140px
+    }
+    .suppliers {
+        align-items: self-start !important
+    }
+    .contact-us,
+    .contact-us-form {
+        padding: 0 !important
+    }
+    .go-up {
+        width: 50px;
+        height: 50px;
+        bottom: 140px
+    }
+    .further-info a,
+    .further-info p,
+    .go-up i {
+        font-size: 30px
+    }
+    .wpp-me i {
+        font-size: 55px
+    }
+    .certificaciones-presentacion p {
+        font-size: 26px !important
+    }
+    .certificaciones-presentacion {
+        margin-bottom: 80px !important
+    }
+    .ribbon {
+        font-size: 12px !important;
+        left: -55px !important
+    }
+    .building {
+        margin: 10px 12px !important
+    }
+    .importacion-img{
+        width: 40%;
+    }
+    .importacion-info{
+        width: 60%;
+    }
+    .terminales ul li a{
+        font-size: 18px;
+    }
+    .comercio-ul li {
+        font-size: 20px;
+    }
+    .importacion-info .page-title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .consorcio-libre,
+    .section-contable .contable-services,
+    .section-contable .us-contable,
+    .suppliers {
+        width: 100%;
+        padding: 0 !important
+    }
+    .section-contable {
+        flex-direction: column;
+        max-width: 100% !important;
+        justify-content: center;
+        align-items: center
+    }
+    .section-contable .us-contable p {
+        margin: 20px 60px !important
+    }
+    .further-info {
+        margin-bottom: 0 !important
+    }
+    .contable-services {
+        margin-top: 60px
+    }
+    .contable-services div {
+        width: 60%
+    }
+    .div-contable {
+        margin-left: auto !important;
+        margin-right: auto !important
+    }
+    .nav-bar .nav-buttons a {
+        font-size: 15px
+    }
+    #contact-form input,
+    #contact-form select {
+        font-size: 13px
+    }
+    .admin-presentation-data p,
+    .clients .client h3,
+    .contact-us .contact-data p,
+    .newairs-data .we-are p {
+        font-size: 20px
+    }
+    .page-title {
+        font-size: 38px
+    }
+    .check-group .check h2,
+    .check-group .check i {
+        font-size: 30px;
+        margin-right: 0 !important
+    }
+    .building {
+        margin: 10px !important
+    }
+    .clients .client img {
+        width: 100px
+    }
+    .fixed-nav-bar .nav-buttons a {
+        font-size: 14px
+    }
+    .clients-logos {
+        flex-wrap: wrap
+    }
+    .clients-logos img {
+        margin-bottom: 20px
+    }
+    .our-suppliers-data {
+        flex-direction: column-reverse
+    }
+    .suppliers {
+        align-items: center !important
+    }
+    .suppliers img {
+        max-width: 180px !important;
+        min-width: 180px !important
+    }
+    .consorcio-libre {
+        margin-top: 30px
+    }
+    .info-consorcio {
+        flex-direction: row;
+        margin-bottom: 0 !important
+    }
+    .video-consorcio {
+        width: 50% !important
+    }
+    .consorcio-button {
+        width: 60%;
+        height: 40px;
+        font-size: 25px
+    }
+    .newairs-data .container {
+        padding: 0 40px !important
+    }
+    .dovalle-service {
+        width: 200px !important
+    }
+    .container .further-info {
+        margin-bottom: 30px !important
+    }
+    .ribbon {
+        top: 10px !important;
+        left: -50px !important
+    }
+    .contable-img {
+        display: none !important
+    }
+    .contact-us .contact-data div a div i,
+    .contact-us .contact-data div a p,
+    .contact-us .contact-data div div i,
+    .contact-us .contact-data div p {
+        font-size: 22px !important
+    }
+}
+
+@media screen and (max-width:900px) {
+    .contact-us,
+    .contact-us-form {
+        width: 80% !important
+    }
+    .ribbon {
+        left: -46px !important
+    }
+    .contact-div {
+        flex-direction: column-reverse !important;
+        height: fit-content !important
+    }
+    .contact-us {
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 30px
+    }
+    .contact-us .contact-data {
+        width: 70% !important;
+        justify-content: center !important;
+        align-items: center !important
+    }
+    .contact-text,
+    .contact-us .contact-data p,
+    .footer-logo div p:last-child {
+        font-size: 20px
+    }
+    .social-media {
+        width: 30% !important
+    }
+    .eslogan {
+        font-size: 55px
+    }
+    .logo-institution p {
+        font-size: 16px
+    }
+    .contact-nav a {
+        font-size: 18px
+    }
+    .nav-bar .nav-buttons a {
+        font-size: 14px !important
+    }
+    .logo-dc-admin img {
+        width: 120px
+    }
+    .logo-dc-admin h1 {
+        font-size: 30px
+    }
+    .check-group .check h2,
+    .check-group .check i {
+        font-size: 26px
+    }
+    .container {
+        padding: 0 60px !important
+    }
+    .clients .client h3 {
+        font-size: 17px
+    }
+    .page-title {
+        font-size: 32px
+    }
+    .suppliers img {
+        max-width: 160px !important;
+        min-width: 160px !important;
+        margin: 30px 20px !important
+    }
+    .logo-consorcio {
+        width: 400px
+    }
+    #contact-form input {
+        background-color: transparent !important
+    }
+    .contact-div .contact-us {
+        margin-bottom: 30px
+    }
+    .footer-logo img {
+        width: 90px
+    }
+    .footer-logo div p:first-child {
+        font-size: 40px
+    }
+    .footer-contact {
+        align-items: center
+    }
+    .newairs-data .we-are p {
+        margin-bottom: 0
+    }
+    .further-info a {
+        margin-top: 20px;
+        font-size: 30px
+    }
+    .certificaciones-presentacion p {
+        font-size: 24px !important
+    }
+    .importacion-img{
+        display: none;
+    }
+    .importacion-info{
+        width: 100%;
+    }
+    .links-comercio{
+        flex-direction: column;
+    }
+
+    .comercio h2{
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .ribbon {
+        top: 12px !important;
+        left: -35px !important
+    }
+    .contact-text {
+        font-size: 20px
+    }
+    .construction_page h1 {
+        font-size: 35px !important
+    }
+    .social-media {
+        display: none;
+        width: 40% !important
+    }
+    .contact-us .contact-data {
+        width: 60% !important
+    }
+    .contact-us .contact-data p {
+        font-size: 18px
+    }
+    .social-media a {
+        font-size: 30px
+    }
+    .footer-logo div p:first-child {
+        font-size: 40px
+    }
+    .footer-logo div p:last-child,
+    .further-info a,
+    .further-info p {
+        font-size: 25px
+    }
+    .nav-bar .nav-buttons a {
+        font-size: 14px;
+        margin: 0 15px
+    }
+    .logo-consorcio {
+        width: 400px
+    }
+    .contact-us {
+        margin-bottom: 15px
+    }
+    .admin-presentation-data p,
+    .clients .client h3 {
+        font-size: 17px
+    }
+    .clients .client {
+        margin: 0 15px
+    }
+    .clients-logos img {
+        margin-bottom: 35px
+    }
+    .suppliers img {
+        max-width: 140px;
+        min-width: 140px
+    }
+    .newairs-services .services div i {
+        font-size: 80px
+    }
+    .newairs-logo {
+        width: 250px
+    }
+    .newairs-services .services {
+        width: 100%
+    }
+    .dovalle-service {
+        width: 180px !important;
+        height: 180px !important
+    }
+    .dovalle-service p {
+        font-size: 20px !important
+    }
+    .further-info a {
+        width: 45% !important;
+        height: 40px;
+        margin-top: 0 !important
+    }
+    .dovalle-services {
+        margin-bottom: 0 !important
+    }
+    .comercio-presentacion{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .ribbon {
+        top: 14px !important;
+        font-size: 16px !important;
+        left: -80px !important
+    }
+    .buildings {
+        flex-wrap: wrap
+    }
+    .building {
+        width: 40% !important
+    }
+    .admin-title {
+        font-size: 42px !important
+    }
+    .logo-institution p {
+        margin-right: 15px
+    }
+    .eslogan {
+        font-size: 42px
+    }
+    .consorcio-libre .container,
+    .new-airs-page {
+        flex-direction: column
+    }
+    .consorcio-libre .container div {
+        width: 100%
+    }
+    .video-consorcio {
+        height: 300px;
+        align-items: center
+    }
+    .nav-buttons {
+        display: none !important
+    }
+    .nav-buttons-mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: right;
+        padding-right: 30px !important
+    }
+    .mobile-icon {
+        color: #fcfcfc;
+        font-size: 30px
+    }
+    .mobile-menu-nav {
+        position: absolute;
+        top: 160px;
+        background: linear-gradient(to right, var(--aqua-blue), var(--main-blue) 35%);
+        align-items: flex-end;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        z-index: 999;
+        box-shadow: 0 10px 5px rgba(0, 0, 0, .658)
+    }
+    .mobile-menu-nav a {
+        color: var(--main-white);
+        text-decoration: none !important;
+        font-size: 17px;
+        font-family: var(--montserrat);
+        margin: 10px 20px;
+        text-shadow: 4px 2px 3px rgba(0, 0, 0, .562);
+        transition: .4s ease-in-out
+    }
+    .contable-services div {
+        width: 75%
+    }
+    .check-group .check h2,
+    .check-group .check i {
+        font-size: 22px
+    }
+    .logo-dc-admin img {
+        width: 100px
+    }
+    .logo-dc-admin h1 {
+        font-size: 26px
+    }
+    .building h2 {
+        font-size: 28px
+    }
+    .building h3 {
+        display: flex;
+        flex-direction: column
+    }
+    .building h4 {
+        font-size: 20px
+    }
+    #video-yt {
+        height: 55%
+    }
+    .contact-div div {
+        padding: 0 !important
+    }
+    .contact-div .contact-us {
+        flex-direction: column !important;
+        align-items: center !important
+    }
+    .contact-div .contact-us div {
+        justify-content: center !important;
+        align-items: center !important
+    }
+    .social-media a {
+        margin: 0 10px !important
+    }
+    .newairs-data,
+    .newairs-services {
+        width: 100% !important
+    }
+    .newairs-services .services {
+        width: 90% !important
+    }
+    .dovalle-service {
+        width: 110px !important
+    }
+    .dovalle-service p {
+        font-size: 18px !important
+    }
+    .contact-us .contact-data div a div i,
+    .contact-us .contact-data div a p,
+    .contact-us .contact-data div div i,
+    .contact-us .contact-data div p {
+        font-size: 20px !important
+    }
+    .icon-container {
+        width: 12px !important;
+        margin-right: 15px !important
+    }
+}
+
+@media screen and (max-width:600px) {
+    .ribbon {
+        left: -68px !important
+    }
+    .certificaciones-presentacion p {
+        font-size: 21px !important
+    }
+    .logo-institution p {
+        width: 32%;
+        margin-right: 0 !important
+    }
+    .logo-institution .contact-nav {
+        margin-right: 10px
+    }
+    .contact-nav a {
+        margin: 0 10px;
+        font-size: 17px !important
+    }
+    .deco-footer,
+    footer {
+        height: 170px !important
+    }
+    .contact-text {
+        font-size: 16px;
+        margin: 20px 10px
+    }
+    .contact h2,
+    .go-up i {
+        font-size: 30px
+    }
+    #video-yt {
+        width: 100%;
+        margin-top: 15px;
+        height: 75%
+    }
+    .footer-logo {
+        margin-left: 10px;
+        width: 0% !important
+    }
+    .go-up {
+        width: 50px;
+        height: 50px;
+        border-radius: 35px
+    }
+    .check-group .check h2 {
+        margin-left: 4px
+    }
+    .clients-logos img {
+        width: 35% !important
+    }
+    .clients {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .clients .client {
+        width: 40%;
+        align-items: center !important;
+        justify-content: center
+    }
+    .suppliers img {
+        max-width: 120px !important;
+        min-width: 120px !important;
+        margin: 10px 20px !important
+    }
+    .contact-div .contact-us,
+    .info-consorcio {
+        flex-direction: column !important
+    }
+    .logo-consorcio {
+        width: 350px
+    }
+    .video-consorcio {
+        height: 220px;
+        width: 70% !important;
+        margin-bottom: 20px
+    }
+    .div-qr {
+        margin-bottom: 25px
+    }
+    .footer-logo a {
+        margin-left: 0 !important
+    }
+    .buildings {
+        flex-wrap: wrap
+    }
+    .building {
+        width: 40% !important
+    }
+}
+
+@media screen and (max-width:500px) {
+    #contact-form .address,
+    #contact-form .comment,
+    #contact-form .email,
+    #contact-form .name,
+    #contact-form label,
+    #contact-form .sent-form {
+        grid-column-start: 1;
+        grid-column-end: 5
+    }
+    .img-home {
+        background-position: center 10%
+    }
+    .section-contable .us-contable p {
+        margin: 18px 30px !important
+    }
+    .div-contable h3 {
+        font-size: 17px
+    }
+    .contable-services {
+        margin-top: 15px
+    }
+    .cont-list {
+        padding-left: 25px
+    }
+    .contable-services div {
+        width: 82%
+    }
+    .section-contable .us-contable h3 {
+        font-size: 30px;
+        margin-bottom: 20px
+    }
+    .section-contable .us-contable p {
+        font-size: 16px
+    }
+    .check-group .check h2,
+    .check-group .check i,
+    .contact-us .contact-data p,
+    .footer-logo div p:last-child {
+        font-size: 20px
+    }
+    #contact-form .name {
+        grid-row: 1
+    }
+    #contact-form .email {
+        grid-row: 2
+    }
+    #contact-form label {
+        grid-row: 3
+    }
+    #contact-form .address {
+        grid-row: 4
+    }
+    #contact-form .comment {
+        grid-row: 5;
+        font-size: 20px !important
+    }
+    #contact-form .sent-form {
+        grid-row: 6
+    }
+    .contact-us {
+        flex-direction: column !important
+    }
+    .contact-us .contact-data,
+    .social-media {
+        width: 100% !important;
+        align-items: center !important
+    }
+    .social-media {
+        margin-bottom: 20px;
+        justify-content: center !important;
+        margin-top: 25px !important
+    }
+    .footer-logo {
+        margin-left: 10px !important
+    }
+    .eslogan {
+        font-size: 35px
+    }
+    .registrate-consorcio {
+        font-size: 20px !important
+    }
+    .store-consorcio {
+        font-size: 14px !important
+    }
+    .container {
+        padding: 0 20px !important
+    }
+    .logo-consorcio {
+        width: 300px
+    }
+    #contact-link,
+    #us-link {
+        display: none !important
+    }
+    .consorcio-button {
+        width: 70% !important;
+        font-size: 20px
+    }
+    .further-info {
+        margin-bottom: 20px !important
+    }
+    .logo-dc-admin {
+        width: 60%
+    }
+    .logo-dc-admin h1 {
+        width: 30%
+    }
+    .admin-presentation-data p {
+        font-size: 19px
+    }
+    .check-group {
+        flex-direction: column;
+        align-items: center
+    }
+    .social-media a {
+        margin: 0 10px !important
+    }
+    .contact {
+        padding: 0 40px
+    }
+    .logo-institution p {
+        margin-right: 10px !important
+    }
+    .further-info a,
+    .further-info p {
+        font-size: 20px !important;
+        text-align: center
+    }
+    .further-info a {
+        height: 35px !important
+    }
+    .terminales ul li a{
+        font-size: 16px;
+    }
+    .terminales .page-title{
+        font-size: 26px;
+    }
+    .comercio-ul li{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .contable-services div {
+        width: 92%
+    }
+    .consorcio-button {
+        width: 80% !important;
+        font-size: 18px !important
+    }
+    .ribbon {
+        left: -40px !important
+    }
+}

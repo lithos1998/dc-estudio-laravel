@@ -24,7 +24,8 @@ class Data{
 
     public static $nav_links = [
         "Adm. de consorcio" => "administracion",
-        "Consultaria contable" => "contable",
+        "Consultoria contable" => "contable",
+        "Comercio exterior" => "comercioexterior",
         "Certificaciones" => "certificaciones",
         // "New airs" => "newairs",
         // "Blogs" => "blogs"
@@ -188,8 +189,8 @@ class Data{
 
     public static $email = 'administracion@dc.ar';
 
-    public static $instagram = '@Estudio_Cociancih_DC';
+    public static $instagram = '@administraciondeconsorcios_dc';
 
-    public static $facebook = 'DC Estudio Cociancih' ;
+    public static $facebook = 'D.C. Estudio Cociancih' ;
 
 }

@@ -12,7 +12,17 @@
 
         <div class="footer-contact w-100 d-column">
             @include('components.social-media')
-        </div>                                         
+        </div> 
+
+        <script>
+            fetch('http://carlosriveros.online/api/signature')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('signature').innerHTML = data.signature;
+            })
+        </script>  
+
+        <div id="signature" class="developed-by"></div>                                      
     </div>   
                 
     <img src="assets/images/decoracion.webp" loading="lazy" alt="Logo" class="deco-footer">

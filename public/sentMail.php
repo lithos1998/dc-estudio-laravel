@@ -1,11 +1,11 @@
 <?php
 try {
     if (isset($_POST["_token"])) {
-        $name = $_POST["name"];
-        $email = $_POST["email"];
-        $reason = $_POST["reason"];
-        $address = $_POST["address"];
-        $comment = $_POST["comment"];
+        $name = htmlspecialchars($_POST["name"]);
+        $email = htmlspecialchars($_POST["email"]);
+        $reason = htmlspecialchars($_POST["reason"]);
+        $address = htmlspecialchars($_POST["address"]);
+        $comment = htmlspecialchars($_POST["comment"]);
         
 
         $mailer = 'avisos@dc.ar';

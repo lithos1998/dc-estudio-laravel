@@ -1,0 +1,56 @@
+@font-face{
+    font-family: 'roboto-medium';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+:root{
+    /* colors */
+    --main-white : #fcfcfc;
+    --main-black : #000000;
+    --main-gray : #666666;
+
+    --green : #128C7E;
+    --dark-gray : #4b4b4b;
+    --light-gray : #7d7d7d;
+    --white-gray : #959393;
+    --second-color : #587679;
+    --second-color-main: #71979b ;
+    /* test color */
+
+    /* fonts */
+    --roboto-medium : 'roboto-medium';
+    
+}
+
+
+/* mail */
+.mail{
+    padding-top: 25px ;
+    background-color: var(--main-gray) !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.mail p, .mail h2{
+    margin: 5px 0px;
+    color: var(--main-white) !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.mail p{
+    font-size: 25px;
+}
+
+.mail h2{
+    font-size: 32px;
+}
+
+.mail span{
+    margin: 45px;
+    font-size: 15px;
+    color: var(--main-white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+/* mail */

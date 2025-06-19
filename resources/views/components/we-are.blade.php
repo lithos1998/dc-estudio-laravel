@@ -3,7 +3,7 @@
 
     <div class="logo-dc-admin">
         <img class="logo-buildings" src="assets/images/logo.webp" alt="logo">      
-        <h1>DC | ESTUDIO COCIANCIH</h1>
+        <h1>DC ESTUDIO COCIANCIH</h1>
     </div>
 
     <div class="check-group">
